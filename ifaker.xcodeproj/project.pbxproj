@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0203C9C45A7C35C9CC8EFDE4 /* Pods_ifaker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E65BBF468A35102443318AE /* Pods_ifaker.framework */; };
+		5F2BFAA3D519F1F9626395AF /* Pods_ifakerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81E720BBC6D5F7EEEFA8C473 /* Pods_ifakerTests.framework */; };
+		703A605A1FE1CD550085F3B3 /* StringTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A051DEA9E9EA1FE1C07C43FD /* StringTests.swift */; };
+		70632FA41FD737D5006E201E /* ifaker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70632F9A1FD737D5006E201E /* ifaker.framework */; };
+		70632FAB1FD737D5006E201E /* ifaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 70632F9D1FD737D5006E201E /* ifaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A051D0A1A7AA8FFF42C0F145 /* IntExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A051D80DED85A9B23AC324CC /* IntExtension.swift */; };
+		A051D46044445897496D4271 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A051DECC39701ADC0F6DAE42 /* StringExtension.swift */; };
+		A051DE74E30D02CDB87E565F /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = A051D33A4F07D6265F632200 /* .gitignore */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		70632FA51FD737D5006E201E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 70632F911FD737D5006E201E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 70632F991FD737D5006E201E;
+			remoteInfo = ifaker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4E65BBF468A35102443318AE /* Pods_ifaker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ifaker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B852D7B22E1D8BA2E77DE97 /* Pods-ifaker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ifaker.release.xcconfig"; path = "Pods/Target Support Files/Pods-ifaker/Pods-ifaker.release.xcconfig"; sourceTree = "<group>"; };
+		62AF14D699650CAF3B06BFAB /* Pods-ifakerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ifakerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ifakerTests/Pods-ifakerTests.release.xcconfig"; sourceTree = "<group>"; };
+		6B806A04CA925381D621382C /* Pods-ifaker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ifaker.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ifaker/Pods-ifaker.debug.xcconfig"; sourceTree = "<group>"; };
+		70632F9A1FD737D5006E201E /* ifaker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ifaker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		70632F9D1FD737D5006E201E /* ifaker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ifaker.h; sourceTree = "<group>"; };
+		70632F9E1FD737D5006E201E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70632FA31FD737D5006E201E /* ifakerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ifakerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		70632FAA1FD737D5006E201E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81E720BBC6D5F7EEEFA8C473 /* Pods_ifakerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ifakerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A051D33A4F07D6265F632200 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = file.gitignore; path = .gitignore; sourceTree = "<group>"; };
+		A051D80DED85A9B23AC324CC /* IntExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntExtension.swift; sourceTree = "<group>"; };
+		A051DEA9E9EA1FE1C07C43FD /* StringTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringTests.swift; sourceTree = "<group>"; };
+		A051DECC39701ADC0F6DAE42 /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		D7B9E00996DC94C054C34B1B /* Pods-ifakerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ifakerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ifakerTests/Pods-ifakerTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		70632F961FD737D5006E201E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0203C9C45A7C35C9CC8EFDE4 /* Pods_ifaker.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70632FA01FD737D5006E201E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70632FA41FD737D5006E201E /* ifaker.framework in Frameworks */,
+				5F2BFAA3D519F1F9626395AF /* Pods_ifakerTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		63ED976F3E2E2627F5658F50 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4E65BBF468A35102443318AE /* Pods_ifaker.framework */,
+				81E720BBC6D5F7EEEFA8C473 /* Pods_ifakerTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		70632F901FD737D5006E201E = {
+			isa = PBXGroup;
+			children = (
+				70632F9C1FD737D5006E201E /* ifaker */,
+				70632FA71FD737D5006E201E /* ifakerTests */,
+				70632F9B1FD737D5006E201E /* Products */,
+				F469A75CE11289CF5488A219 /* Pods */,
+				63ED976F3E2E2627F5658F50 /* Frameworks */,
+				A051D33A4F07D6265F632200 /* .gitignore */,
+			);
+			sourceTree = "<group>";
+		};
+		70632F9B1FD737D5006E201E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				70632F9A1FD737D5006E201E /* ifaker.framework */,
+				70632FA31FD737D5006E201E /* ifakerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		70632F9C1FD737D5006E201E /* ifaker */ = {
+			isa = PBXGroup;
+			children = (
+				70632F9D1FD737D5006E201E /* ifaker.h */,
+				70632F9E1FD737D5006E201E /* Info.plist */,
+				A051D167CA58633D69D7F57F /* Extensions */,
+			);
+			path = ifaker;
+			sourceTree = "<group>";
+		};
+		70632FA71FD737D5006E201E /* ifakerTests */ = {
+			isa = PBXGroup;
+			children = (
+				70632FAA1FD737D5006E201E /* Info.plist */,
+				A051DEA9E9EA1FE1C07C43FD /* StringTests.swift */,
+			);
+			path = ifakerTests;
+			sourceTree = "<group>";
+		};
+		A051D167CA58633D69D7F57F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A051DECC39701ADC0F6DAE42 /* StringExtension.swift */,
+				A051D80DED85A9B23AC324CC /* IntExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		F469A75CE11289CF5488A219 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6B806A04CA925381D621382C /* Pods-ifaker.debug.xcconfig */,
+				5B852D7B22E1D8BA2E77DE97 /* Pods-ifaker.release.xcconfig */,
+				D7B9E00996DC94C054C34B1B /* Pods-ifakerTests.debug.xcconfig */,
+				62AF14D699650CAF3B06BFAB /* Pods-ifakerTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		70632F971FD737D5006E201E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70632FAB1FD737D5006E201E /* ifaker.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		70632F991FD737D5006E201E /* ifaker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70632FAE1FD737D5006E201E /* Build configuration list for PBXNativeTarget "ifaker" */;
+			buildPhases = (
+				1A0527B2D0554B7E68ABAB90 /* [CP] Check Pods Manifest.lock */,
+				70632F951FD737D5006E201E /* Sources */,
+				70632F961FD737D5006E201E /* Frameworks */,
+				70632F971FD737D5006E201E /* Headers */,
+				70632F981FD737D5006E201E /* Resources */,
+				90FA778E6102D9BA3AC5B24B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ifaker;
+			productName = ifaker;
+			productReference = 70632F9A1FD737D5006E201E /* ifaker.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		70632FA21FD737D5006E201E /* ifakerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70632FB11FD737D5006E201E /* Build configuration list for PBXNativeTarget "ifakerTests" */;
+			buildPhases = (
+				5748F860E0D890DAF2F4F9E2 /* [CP] Check Pods Manifest.lock */,
+				70632F9F1FD737D5006E201E /* Sources */,
+				70632FA01FD737D5006E201E /* Frameworks */,
+				70632FA11FD737D5006E201E /* Resources */,
+				9EAFF60E16C9B340BE683044 /* [CP] Embed Pods Frameworks */,
+				20AAD0B9F748129726EBE618 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				70632FA61FD737D5006E201E /* PBXTargetDependency */,
+			);
+			name = ifakerTests;
+			productName = ifakerTests;
+			productReference = 70632FA31FD737D5006E201E /* ifakerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		70632F911FD737D5006E201E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = biercoff;
+				TargetAttributes = {
+					70632F991FD737D5006E201E = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					70632FA21FD737D5006E201E = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 70632F941FD737D5006E201E /* Build configuration list for PBXProject "ifaker" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 70632F901FD737D5006E201E;
+			productRefGroup = 70632F9B1FD737D5006E201E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				70632F991FD737D5006E201E /* ifaker */,
+				70632FA21FD737D5006E201E /* ifakerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		70632F981FD737D5006E201E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A051DE74E30D02CDB87E565F /* .gitignore in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70632FA11FD737D5006E201E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1A0527B2D0554B7E68ABAB90 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ifaker-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		20AAD0B9F748129726EBE618 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ifakerTests/Pods-ifakerTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5748F860E0D890DAF2F4F9E2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ifakerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		90FA778E6102D9BA3AC5B24B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ifaker/Pods-ifaker-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9EAFF60E16C9B340BE683044 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ifakerTests/Pods-ifakerTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Nimble/Nimble.framework",
+				"${BUILT_PRODUCTS_DIR}/Quick/Quick.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nimble.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Quick.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ifakerTests/Pods-ifakerTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		70632F951FD737D5006E201E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A051D46044445897496D4271 /* StringExtension.swift in Sources */,
+				A051D0A1A7AA8FFF42C0F145 /* IntExtension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70632F9F1FD737D5006E201E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				703A605A1FE1CD550085F3B3 /* StringTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		70632FA61FD737D5006E201E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 70632F991FD737D5006E201E /* ifaker */;
+			targetProxy = 70632FA51FD737D5006E201E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		70632FAC1FD737D5006E201E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		70632FAD1FD737D5006E201E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		70632FAF1FD737D5006E201E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B806A04CA925381D621382C /* Pods-ifaker.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 3B33JALMDB;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = ifaker/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.biercoff.ifaker;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		70632FB01FD737D5006E201E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B852D7B22E1D8BA2E77DE97 /* Pods-ifaker.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 3B33JALMDB;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_TESTABILITY = NO;
+				INFOPLIST_FILE = ifaker/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.biercoff.ifaker;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		70632FB21FD737D5006E201E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7B9E00996DC94C054C34B1B /* Pods-ifakerTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3B33JALMDB;
+				INFOPLIST_FILE = ifakerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.biercoff.ifakerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		70632FB31FD737D5006E201E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62AF14D699650CAF3B06BFAB /* Pods-ifakerTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3B33JALMDB;
+				INFOPLIST_FILE = ifakerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.biercoff.ifakerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		70632F941FD737D5006E201E /* Build configuration list for PBXProject "ifaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70632FAC1FD737D5006E201E /* Debug */,
+				70632FAD1FD737D5006E201E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70632FAE1FD737D5006E201E /* Build configuration list for PBXNativeTarget "ifaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70632FAF1FD737D5006E201E /* Debug */,
+				70632FB01FD737D5006E201E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70632FB11FD737D5006E201E /* Build configuration list for PBXNativeTarget "ifakerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70632FB21FD737D5006E201E /* Debug */,
+				70632FB31FD737D5006E201E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 70632F911FD737D5006E201E /* Project object */;
+}

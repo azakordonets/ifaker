@@ -19,17 +19,17 @@ public extension Int {
 
     public static func random(_ range: Range<Int>) -> Int {
     #if swift(>=3)
-        return random(range.lowerBound, range.upperBound - 1)
+        return random(from: range.lowerBound, until: range.upperBound - 1)
     #else
         return random(range.upperBound, range.lowerBound)
     #endif
     }
 
     public static func random(_ range: ClosedRange<Int>) -> Int {
-        return random(range.lowerBound, range.upperBound)
+        return random(from: range.lowerBound, until: range.upperBound)
     }
 
-    public static func random(_ lower: Int = 0, _ upper: Int = 100) -> Int {
+    public static func random(from lower: Int = 0, until upper: Int = 100) -> Int {
         return lower + Int(arc4random_uniform(UInt32(upper - lower + 1)))
     }
 }

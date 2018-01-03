@@ -87,4 +87,19 @@ public extension String {
     public func botify(with charSet: CharSets = .mixedCaseLettersOnly) -> String {
         return self.letterify(with: charSet).numerify()
     }
+
+    public static func word() -> String {
+        guard let word = TestDataKeeper.wordsArray.randomItem() else {
+            return "undefined"
+        }
+        return word
+    }
+
+    public static func sentence(of numberOfWords: Int = 10) -> String {
+        return (0..<numberOfWords).map { _ in
+            self.word()
+        }.joined(separator: " ")
+    }
+
+
 }

@@ -97,6 +97,7 @@ class StringTests: QuickSpec {
                 let originalString: String
                 let expectedResultRegexPattern: String
             }
+
             let lettersOnlyPattern = "[a-zA-Z]"
             let letterifyTestData = [
                 TestData(originalString: "abc123", expectedResultRegexPattern: "abc123"),
@@ -152,6 +153,39 @@ class StringTests: QuickSpec {
                             "'?' with random letter and match " +
                             "\(testData.expectedResultRegexPattern) regex pattern") {
                         expect(testData.originalString.botify()).to(match(testData.expectedResultRegexPattern))
+                    }
+                }
+            }
+        }
+
+        describe("ifaker provides String extention that allows to generate fake word, phrase sentence") {
+            let words = PlistReader.getValue(of: "words", from: "words", withExtension: "plist", as: [String].self)
+            expect(words).toNot(beNil())
+            context("When 'word' method is called") {
+                it("Should return a random word from an existing plist file filled with words") {
+                    let word = String.word()
+                    expect(word).toNot(be("undefined"))
+                    expect(words).to(contain(word))
+                }
+            }
+            context("When 'sentence' method is called") {
+                it("Should a return a random sentence with 10 words length") {
+                    let sentence = String.sentence()
+                    let splitSentence: [String] = sentence.components(separatedBy: " ")
+                    expect(splitSentence.count).to(equal(10))
+                    splitSentence.forEach { word in
+                        expect(words).to(contain(word))
+                    }
+                }
+            }
+            context("When 'sentence' method is called with custom number of words") {
+                it("Should return random sentence with custom number of words") {
+                    let numberOfWords = 20
+                    let sentence = String.sentence(of: numberOfWords)
+                    let splitSentence: [String] = sentence.components(separatedBy: " ")
+                    expect(splitSentence.count).to(equal(numberOfWords))
+                    splitSentence.forEach { word in
+                        expect(words).to(contain(word))
                     }
                 }
             }

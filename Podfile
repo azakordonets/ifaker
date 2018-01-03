@@ -21,6 +21,7 @@ target 'ifaker' do
     use_frameworks!
     pod 'Nimble', '~> 7.0.3'
     pod 'Quick'    
+    pod 'Log'
   end
 
 end

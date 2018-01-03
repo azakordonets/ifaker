@@ -9,12 +9,22 @@
 /* Begin PBXBuildFile section */
 		0203C9C45A7C35C9CC8EFDE4 /* Pods_ifaker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E65BBF468A35102443318AE /* Pods_ifaker.framework */; };
 		5F2BFAA3D519F1F9626395AF /* Pods_ifakerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81E720BBC6D5F7EEEFA8C473 /* Pods_ifakerTests.framework */; };
+		70283E441FFD87F100237AE8 /* TestDataKeeper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70283E431FFD87F100237AE8 /* TestDataKeeper.swift */; };
+		70283E451FFD87F100237AE8 /* TestDataKeeper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70283E431FFD87F100237AE8 /* TestDataKeeper.swift */; };
 		703A605A1FE1CD550085F3B3 /* StringTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A051DEA9E9EA1FE1C07C43FD /* StringTests.swift */; };
 		70632FA41FD737D5006E201E /* ifaker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70632F9A1FD737D5006E201E /* ifaker.framework */; };
 		70632FAB1FD737D5006E201E /* ifaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 70632F9D1FD737D5006E201E /* ifaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		70A359421FFCC088007D3251 /* words.plist in Resources */ = {isa = PBXBuildFile; fileRef = A051DE6130C948301D087620 /* words.plist */; };
 		A051D0A1A7AA8FFF42C0F145 /* IntExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A051D80DED85A9B23AC324CC /* IntExtension.swift */; };
+		A051D38B52140EB898B807CB /* PlistReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A051DDF4B606280C92C1715C /* PlistReader.swift */; };
 		A051D46044445897496D4271 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A051DECC39701ADC0F6DAE42 /* StringExtension.swift */; };
+		A051D540ED9F283A7770117E /* words.plist in Resources */ = {isa = PBXBuildFile; fileRef = A051DE6130C948301D087620 /* words.plist */; };
+		A051D7069D13B9BBA877ED22 /* ArraySlice.swift in Sources */ = {isa = PBXBuildFile; fileRef = A051D8CD1E44292C32FEC988 /* ArraySlice.swift */; };
+		A051D7C684F8003B2AC7EC84 /* PlistReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A051DDF4B606280C92C1715C /* PlistReader.swift */; };
+		A051D7D6039FA0494DC37614 /* ArraySlice.swift in Sources */ = {isa = PBXBuildFile; fileRef = A051D8CD1E44292C32FEC988 /* ArraySlice.swift */; };
+		A051D8569BF707AD5BD02E97 /* ArrayExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A051DB3A85D58ED4904BB8F3 /* ArrayExtension.swift */; };
 		A051DE74E30D02CDB87E565F /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = A051D33A4F07D6265F632200 /* .gitignore */; };
+		A051DF628D99114D1AE17600 /* ArrayExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A051DB3A85D58ED4904BB8F3 /* ArrayExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +42,7 @@
 		5B852D7B22E1D8BA2E77DE97 /* Pods-ifaker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ifaker.release.xcconfig"; path = "Pods/Target Support Files/Pods-ifaker/Pods-ifaker.release.xcconfig"; sourceTree = "<group>"; };
 		62AF14D699650CAF3B06BFAB /* Pods-ifakerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ifakerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ifakerTests/Pods-ifakerTests.release.xcconfig"; sourceTree = "<group>"; };
 		6B806A04CA925381D621382C /* Pods-ifaker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ifaker.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ifaker/Pods-ifaker.debug.xcconfig"; sourceTree = "<group>"; };
+		70283E431FFD87F100237AE8 /* TestDataKeeper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestDataKeeper.swift; sourceTree = "<group>"; };
 		70632F9A1FD737D5006E201E /* ifaker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ifaker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		70632F9D1FD737D5006E201E /* ifaker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ifaker.h; sourceTree = "<group>"; };
 		70632F9E1FD737D5006E201E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -40,6 +51,10 @@
 		81E720BBC6D5F7EEEFA8C473 /* Pods_ifakerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ifakerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A051D33A4F07D6265F632200 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = file.gitignore; path = .gitignore; sourceTree = "<group>"; };
 		A051D80DED85A9B23AC324CC /* IntExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntExtension.swift; sourceTree = "<group>"; };
+		A051D8CD1E44292C32FEC988 /* ArraySlice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArraySlice.swift; sourceTree = "<group>"; };
+		A051DB3A85D58ED4904BB8F3 /* ArrayExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayExtension.swift; sourceTree = "<group>"; };
+		A051DDF4B606280C92C1715C /* PlistReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlistReader.swift; sourceTree = "<group>"; };
+		A051DE6130C948301D087620 /* words.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = words.plist; sourceTree = "<group>"; };
 		A051DEA9E9EA1FE1C07C43FD /* StringTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringTests.swift; sourceTree = "<group>"; };
 		A051DECC39701ADC0F6DAE42 /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
 		D7B9E00996DC94C054C34B1B /* Pods-ifakerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ifakerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ifakerTests/Pods-ifakerTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -99,9 +114,11 @@
 		70632F9C1FD737D5006E201E /* ifaker */ = {
 			isa = PBXGroup;
 			children = (
+				A051DBB7F038ABAD18E1B0D4 /* Resources */,
 				70632F9D1FD737D5006E201E /* ifaker.h */,
 				70632F9E1FD737D5006E201E /* Info.plist */,
 				A051D167CA58633D69D7F57F /* Extensions */,
+				A051D7A29076F20D703E33D0 /* Utils */,
 			);
 			path = ifaker;
 			sourceTree = "<group>";
@@ -120,8 +137,27 @@
 			children = (
 				A051DECC39701ADC0F6DAE42 /* StringExtension.swift */,
 				A051D80DED85A9B23AC324CC /* IntExtension.swift */,
+				A051DB3A85D58ED4904BB8F3 /* ArrayExtension.swift */,
+				A051D8CD1E44292C32FEC988 /* ArraySlice.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		A051D7A29076F20D703E33D0 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				A051DDF4B606280C92C1715C /* PlistReader.swift */,
+				70283E431FFD87F100237AE8 /* TestDataKeeper.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		A051DBB7F038ABAD18E1B0D4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A051DE6130C948301D087620 /* words.plist */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		F469A75CE11289CF5488A219 /* Pods */ = {
@@ -234,6 +270,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A051DE74E30D02CDB87E565F /* .gitignore in Resources */,
+				A051D540ED9F283A7770117E /* words.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,6 +278,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70A359421FFCC088007D3251 /* words.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,11 +358,13 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-ifakerTests/Pods-ifakerTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Log/Log.framework",
 				"${BUILT_PRODUCTS_DIR}/Nimble/Nimble.framework",
 				"${BUILT_PRODUCTS_DIR}/Quick/Quick.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Log.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nimble.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Quick.framework",
 			);
@@ -341,7 +381,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				A051D46044445897496D4271 /* StringExtension.swift in Sources */,
+				70283E441FFD87F100237AE8 /* TestDataKeeper.swift in Sources */,
 				A051D0A1A7AA8FFF42C0F145 /* IntExtension.swift in Sources */,
+				A051D7C684F8003B2AC7EC84 /* PlistReader.swift in Sources */,
+				A051D8569BF707AD5BD02E97 /* ArrayExtension.swift in Sources */,
+				A051D7069D13B9BBA877ED22 /* ArraySlice.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -350,6 +394,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				703A605A1FE1CD550085F3B3 /* StringTests.swift in Sources */,
+				70283E451FFD87F100237AE8 /* TestDataKeeper.swift in Sources */,
+				A051D38B52140EB898B807CB /* PlistReader.swift in Sources */,
+				A051DF628D99114D1AE17600 /* ArrayExtension.swift in Sources */,
+				A051D7D6039FA0494DC37614 /* ArraySlice.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

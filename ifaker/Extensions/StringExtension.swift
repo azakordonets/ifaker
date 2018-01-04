@@ -95,11 +95,15 @@ public extension String {
         return word
     }
 
-    public static func sentence(of numberOfWords: Int = 10) -> String {
+    public static func sentence(words numberOfWords: Int = 10) -> String {
         return (0..<numberOfWords).map { _ in
             self.word()
         }.joined(separator: " ")
     }
 
-
+    public static func paragraph(sentences sentencesNumber: Int = 10) -> String {
+        return (0..<sentencesNumber).map { _ in
+            self.sentence()
+        }.joined(separator: ". ")
+    }
 }

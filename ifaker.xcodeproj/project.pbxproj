@@ -14,10 +14,12 @@
 		703A605A1FE1CD550085F3B3 /* StringTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A051DEA9E9EA1FE1C07C43FD /* StringTests.swift */; };
 		70632FA41FD737D5006E201E /* ifaker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70632F9A1FD737D5006E201E /* ifaker.framework */; };
 		70632FAB1FD737D5006E201E /* ifaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 70632F9D1FD737D5006E201E /* ifaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		706D550F1FFECAED00324593 /* ArrayExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A051DBAB130033C114C7A612 /* ArrayExtensionTests.swift */; };
 		70A359421FFCC088007D3251 /* words.plist in Resources */ = {isa = PBXBuildFile; fileRef = A051DE6130C948301D087620 /* words.plist */; };
 		A051D0A1A7AA8FFF42C0F145 /* IntExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A051D80DED85A9B23AC324CC /* IntExtension.swift */; };
 		A051D38B52140EB898B807CB /* PlistReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A051DDF4B606280C92C1715C /* PlistReader.swift */; };
 		A051D46044445897496D4271 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A051DECC39701ADC0F6DAE42 /* StringExtension.swift */; };
+		A051D4E9119C6F7179FEF2AC /* IntExtentionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A051DE39A6D7C8219AFA60B1 /* IntExtentionTests.swift */; };
 		A051D540ED9F283A7770117E /* words.plist in Resources */ = {isa = PBXBuildFile; fileRef = A051DE6130C948301D087620 /* words.plist */; };
 		A051D7069D13B9BBA877ED22 /* ArraySlice.swift in Sources */ = {isa = PBXBuildFile; fileRef = A051D8CD1E44292C32FEC988 /* ArraySlice.swift */; };
 		A051D7C684F8003B2AC7EC84 /* PlistReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A051DDF4B606280C92C1715C /* PlistReader.swift */; };
@@ -53,7 +55,9 @@
 		A051D80DED85A9B23AC324CC /* IntExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntExtension.swift; sourceTree = "<group>"; };
 		A051D8CD1E44292C32FEC988 /* ArraySlice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArraySlice.swift; sourceTree = "<group>"; };
 		A051DB3A85D58ED4904BB8F3 /* ArrayExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayExtension.swift; sourceTree = "<group>"; };
+		A051DBAB130033C114C7A612 /* ArrayExtensionTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayExtensionTests.swift; sourceTree = "<group>"; };
 		A051DDF4B606280C92C1715C /* PlistReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlistReader.swift; sourceTree = "<group>"; };
+		A051DE39A6D7C8219AFA60B1 /* IntExtentionTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntExtentionTests.swift; sourceTree = "<group>"; };
 		A051DE6130C948301D087620 /* words.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = words.plist; sourceTree = "<group>"; };
 		A051DEA9E9EA1FE1C07C43FD /* StringTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringTests.swift; sourceTree = "<group>"; };
 		A051DECC39701ADC0F6DAE42 /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
@@ -128,6 +132,8 @@
 			children = (
 				70632FAA1FD737D5006E201E /* Info.plist */,
 				A051DEA9E9EA1FE1C07C43FD /* StringTests.swift */,
+				A051DBAB130033C114C7A612 /* ArrayExtensionTests.swift */,
+				A051DE39A6D7C8219AFA60B1 /* IntExtentionTests.swift */,
 			);
 			path = ifakerTests;
 			sourceTree = "<group>";
@@ -397,7 +403,9 @@
 				70283E451FFD87F100237AE8 /* TestDataKeeper.swift in Sources */,
 				A051D38B52140EB898B807CB /* PlistReader.swift in Sources */,
 				A051DF628D99114D1AE17600 /* ArrayExtension.swift in Sources */,
+				706D550F1FFECAED00324593 /* ArrayExtensionTests.swift in Sources */,
 				A051D7D6039FA0494DC37614 /* ArraySlice.swift in Sources */,
+				A051D4E9119C6F7179FEF2AC /* IntExtentionTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

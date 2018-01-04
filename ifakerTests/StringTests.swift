@@ -181,7 +181,7 @@ class StringTests: QuickSpec {
             context("When 'sentence' method is called with custom number of words") {
                 it("Should return random sentence with custom number of words") {
                     let numberOfWords = 20
-                    let sentence = String.sentence(of: numberOfWords)
+                    let sentence = String.sentence(words: numberOfWords)
                     let splitSentence: [String] = sentence.components(separatedBy: " ")
                     expect(splitSentence.count).to(equal(numberOfWords))
                     splitSentence.forEach { word in
@@ -189,6 +189,32 @@ class StringTests: QuickSpec {
                     }
                 }
             }
+            context("When 'paragraph' method is called") {
+                it("Should return random paragraph with 10 sentences in it") {
+                    let paragraph = String.paragraph()
+                    let splitParagraph: [String] = paragraph.components(separatedBy: ". ")
+                    expect(splitParagraph.count).to(equal(10))
+                    splitParagraph.forEach { sentence in
+                        expect(sentence.components(separatedBy: " ").count).to(equal(10)
+                        )
+                    }
+                }
+            }
+
+            context("When 'paragraph' method is called with custom length") {
+                it("Should return random paragraph with custom number of sentences in it") {
+                    let numberOfSentences = 20
+                    let paragraph = String.paragraph(sentences: numberOfSentences)
+                    let splitParagraph: [String] = paragraph.components(separatedBy: ". ")
+                    expect(splitParagraph.count).to(equal(numberOfSentences))
+                    splitParagraph.forEach { sentence in
+                        expect(sentence.components(separatedBy: " ").count).to(equal(10)
+                        )
+                    }
+                }
+            }
+
         }
     }
+
 }

@@ -13,13 +13,12 @@
  *
  */
 
-import Foundation
 import XCTest
 import Nimble
 import Quick
 @testable import ifaker
 
-class IntExtensionTests: QuickSpec {
+class NumberExtensionTests: QuickSpec {
     override func spec() {
         struct RangeTestDataConfig {
             let range: Range<Int>
@@ -46,7 +45,7 @@ class IntExtensionTests: QuickSpec {
 
         rangeTestData.forEach { testData in
             describe("Int has a number of extentions to generate random value") {
-                context("When 'random' method is called with range specified") {
+                context("When 'random' method is called with \(testData.range) range specified") {
                     it("Should generate random number in that range excluding upper bond") {
                         (0...100).forEach { _ in
                             let randomNumber = Int.random(testData.range)
@@ -58,7 +57,7 @@ class IntExtensionTests: QuickSpec {
             }
 
             closeRangeTestData.forEach { testData in
-                context("When 'random' method is called with closed range specified") {
+                context("When 'random' method is called with \(testData.range) closed range specified") {
                     it("Should generate random number in that range including upper bond") {
                         (0...100).forEach { _ in
                             let randomNumber = Int.random(testData.range)
@@ -69,16 +68,36 @@ class IntExtensionTests: QuickSpec {
                     }
                 }
 
-                context("When 'random' method is called with lower, upper bond specified") {
+                context("When 'random' method is called with \(testData.lowerBond) lower, \(testData.upperBond) upper bond specified") {
                     it("Should generate random number in that range") {
                         (0...100).forEach { _ in
-                            let randomNumber = Int.random(from: testData.lowerBond, until: testData.upperBond)
+                            let randomNumber = Int.random(between: testData.lowerBond, and: testData.upperBond)
                             expect(randomNumber).to(beGreaterThanOrEqualTo(testData.lowerBond))
                             expect(randomNumber).to(beLessThanOrEqualTo(testData.upperBond))
                         }
                     }
                 }
+            }
 
+            rangeTestData.forEach { testData in
+                describe("Int32 extension") {
+                    context("When 'random' method is called with \(testData.range) range specified") {
+                        it("Should return random Int32 number from that range") {
+                            let randomNumber = Int32.random(testData.range)
+                            expect(randomNumber).to(beAnInstanceOf(Int32.self))
+                            expect(randomNumber).to(beGreaterThanOrEqualTo(Int32(testData.lowerBond)))
+                            expect(randomNumber).to(beLessThan(Int32(testData.upperBond)))
+                        }
+                    }
+                    context("When 'random' method is called with \(testData.lowerBond) lower and \(testData.upperBond) upper bounds specified specified") {
+                        it("Should return random Int32 number from that range") {
+                            let randomNumber = Int32.random(between: testData.lowerBond, and: testData.upperBond)
+                            expect(randomNumber).to(beAnInstanceOf(Int32.self))
+                            expect(randomNumber).to(beGreaterThanOrEqualTo(Int32(testData.lowerBond)))
+                            expect(randomNumber).to(beLessThan(Int32(testData.upperBond)))
+                        }
+                    }
+                }
             }
         }
     }

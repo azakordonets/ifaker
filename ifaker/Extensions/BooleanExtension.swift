@@ -1,5 +1,5 @@
 /*
- * ArraySlice.swift
+ * BooleanExtension.swift
  *
  * Copyright (c) 2012-2017 Vimpelcom Ltd.
  * All rights reserved.
@@ -15,18 +15,8 @@
 
 import Foundation
 
-public extension ArraySlice {
-
-    public func randomItem() -> Element? {
-        guard self.count > 0 else {
-            return nil
-        }
-
-#if swift(>=3)
-        let index = Int.random(between: self.startIndex, and: self.endIndex - 1)
-#else
-        let index = Int.random(from: self.startIndex, until: self.endIndex)
-#endif
-        return self[index]
+public extension Bool {
+    public static func random() -> Bool {
+        return Int.random() % 2 == 0
     }
 }

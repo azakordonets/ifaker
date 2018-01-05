@@ -11,7 +11,7 @@ import Nimble
 import Quick
 @testable import ifaker
 
-class StringTests: QuickSpec {
+class StringExtensionTests: QuickSpec {
     override func spec() {
         describe("ifaker provides String extension ") {
             let testData = [10: 10, 0: 0, -5: 0]

@@ -27,26 +27,16 @@ class StringExtensionTests: QuickSpec {
         }
 
         describe("ifaker provides String extension. ") {
-            struct RandomStringConfig {
-                let minLength: Int
-                let maxLength: Int
-                let expectedLengthRange: ExpectedStringRange
-            }
 
-            struct ExpectedStringRange {
-                let minLength: Int
-                let maxLength: Int
-            }
-
-            let testData = [
-                RandomStringConfig(minLength: 0, maxLength: 100,
-                        expectedLengthRange: ExpectedStringRange(minLength: 0, maxLength: 100)),
-                RandomStringConfig(minLength: -1, maxLength: 100,
-                        expectedLengthRange: ExpectedStringRange(minLength: 0, maxLength: 100)),
-                RandomStringConfig(minLength: 10, maxLength: 100,
-                        expectedLengthRange: ExpectedStringRange(minLength: 10, maxLength: 100)),
-                RandomStringConfig(minLength: 100, maxLength: 10,
-                        expectedLengthRange: ExpectedStringRange(minLength: 0, maxLength: 10))
+            let testData: [(minLength: Int, maxLength: Int, expectedLengthRange: (minLength: Int, maxLength: Int))] = [
+                (minLength: 0, maxLength: 100,
+                        expectedLengthRange: (minLength: 0, maxLength: 100)),
+                (minLength: -1, maxLength: 100,
+                        expectedLengthRange: (minLength: 0, maxLength: 100)),
+                (minLength: 10, maxLength: 100,
+                        expectedLengthRange: (minLength: 10, maxLength: 100)),
+                (minLength: 100, maxLength: 10,
+                        expectedLengthRange: (minLength: 0, maxLength: 10))
             ]
 
             for randomStringConfig in testData {
@@ -66,15 +56,11 @@ class StringExtensionTests: QuickSpec {
         }
 
         describe("ifaker provides String extension. ") {
-            struct RandomStringConfig {
-                let chars: String
-                let length: Int
-            }
 
-            let testData = [
-                RandomStringConfig(chars: "abc", length: 10),
-                RandomStringConfig(chars: "", length: 0),
-                RandomStringConfig(chars: "abcdefghijklmnoprstuvwzy1234567890-=+`~`?/.><,'|\\", length: 200)
+            let testData: [(chars: String, length: Int)] = [
+                (chars: "abc", length: 10),
+                (chars: "", length: 0),
+                (chars: "abcdefghijklmnoprstuvwzy1234567890-=+`~`?/.><,'|\\", length: 200)
             ]
             for randomDataConfig in testData {
                 let chars: String = randomDataConfig.chars
@@ -93,21 +79,16 @@ class StringExtensionTests: QuickSpec {
         }
 
         describe("ifaker provides String extension that allows to modify String following the pattern") {
-            struct TestData {
-                let originalString: String
-                let expectedResultRegexPattern: String
-            }
-
             let lettersOnlyPattern = "[a-zA-Z]"
-            let letterifyTestData = [
-                TestData(originalString: "abc123", expectedResultRegexPattern: "abc123"),
-                TestData(originalString: "abc123?", expectedResultRegexPattern: "abc123\(lettersOnlyPattern)"),
-                TestData(originalString: "?abc123?", expectedResultRegexPattern: "\(lettersOnlyPattern)abc123\(lettersOnlyPattern)"),
-                TestData(originalString: "?abc?123?", expectedResultRegexPattern: "\(lettersOnlyPattern)abc\(lettersOnlyPattern)123\(lettersOnlyPattern)"),
-                TestData(originalString: "?abc?123?#", expectedResultRegexPattern: "\(lettersOnlyPattern)abc\(lettersOnlyPattern)123\(lettersOnlyPattern)#"),
-                TestData(originalString: "#?abc?123?#", expectedResultRegexPattern: "#\(lettersOnlyPattern)abc\(lettersOnlyPattern)123\(lettersOnlyPattern)#"),
-                TestData(originalString: "#?abc?#123?#", expectedResultRegexPattern: "#\(lettersOnlyPattern)abc\(lettersOnlyPattern)#123\(lettersOnlyPattern)#"),
-                TestData(originalString: "", expectedResultRegexPattern: "^(?![\\s\\S])"),
+            let letterifyTestData: [(originalString: String, expectedResultRegexPattern: String)] = [
+                (originalString: "abc123", expectedResultRegexPattern: "abc123"),
+                (originalString: "abc123?", expectedResultRegexPattern: "abc123\(lettersOnlyPattern)"),
+                (originalString: "?abc123?", expectedResultRegexPattern: "\(lettersOnlyPattern)abc123\(lettersOnlyPattern)"),
+                (originalString: "?abc?123?", expectedResultRegexPattern: "\(lettersOnlyPattern)abc\(lettersOnlyPattern)123\(lettersOnlyPattern)"),
+                (originalString: "?abc?123?#", expectedResultRegexPattern: "\(lettersOnlyPattern)abc\(lettersOnlyPattern)123\(lettersOnlyPattern)#"),
+                (originalString: "#?abc?123?#", expectedResultRegexPattern: "#\(lettersOnlyPattern)abc\(lettersOnlyPattern)123\(lettersOnlyPattern)#"),
+                (originalString: "#?abc?#123?#", expectedResultRegexPattern: "#\(lettersOnlyPattern)abc\(lettersOnlyPattern)#123\(lettersOnlyPattern)#"),
+                (originalString: "", expectedResultRegexPattern: "^(?![\\s\\S])"),
             ]
             for testData in letterifyTestData {
                 context("When 'letterify' method is called on '\(testData.originalString)'") {
@@ -118,15 +99,15 @@ class StringExtensionTests: QuickSpec {
                 }
             }
             let numbersOnlyPattern = "[0-9]"
-            let numerifyTestData = [
-                TestData(originalString: "abc123", expectedResultRegexPattern: "abc123"),
-                TestData(originalString: "abc123#", expectedResultRegexPattern: "abc123\(numbersOnlyPattern)"),
-                TestData(originalString: "#abc123#", expectedResultRegexPattern: "\(numbersOnlyPattern)abc123\(numbersOnlyPattern)"),
-                TestData(originalString: "#abc#123#", expectedResultRegexPattern: "\(numbersOnlyPattern)abc\(numbersOnlyPattern)123\(numbersOnlyPattern)"),
-                TestData(originalString: "#abc#123#?", expectedResultRegexPattern: "\(numbersOnlyPattern)abc\(numbersOnlyPattern)123\(numbersOnlyPattern)\\?"),
-                TestData(originalString: "#?abc?123?#", expectedResultRegexPattern: "\(numbersOnlyPattern)\\?abc\\?123\\?\(numbersOnlyPattern)"),
-                TestData(originalString: "#?abc?#123?#", expectedResultRegexPattern: "\(numbersOnlyPattern)\\?abc\\?\(numbersOnlyPattern)123\\?\(numbersOnlyPattern)"),
-                TestData(originalString: "", expectedResultRegexPattern: "^(?![\\s\\S])"),
+            let numerifyTestData: [(originalString: String, expectedResultRegexPattern: String)] = [
+                (originalString: "abc123", expectedResultRegexPattern: "abc123"),
+                (originalString: "abc123#", expectedResultRegexPattern: "abc123\(numbersOnlyPattern)"),
+                (originalString: "#abc123#", expectedResultRegexPattern: "\(numbersOnlyPattern)abc123\(numbersOnlyPattern)"),
+                (originalString: "#abc#123#", expectedResultRegexPattern: "\(numbersOnlyPattern)abc\(numbersOnlyPattern)123\(numbersOnlyPattern)"),
+                (originalString: "#abc#123#?", expectedResultRegexPattern: "\(numbersOnlyPattern)abc\(numbersOnlyPattern)123\(numbersOnlyPattern)\\?"),
+                (originalString: "#?abc?123?#", expectedResultRegexPattern: "\(numbersOnlyPattern)\\?abc\\?123\\?\(numbersOnlyPattern)"),
+                (originalString: "#?abc?#123?#", expectedResultRegexPattern: "\(numbersOnlyPattern)\\?abc\\?\(numbersOnlyPattern)123\\?\(numbersOnlyPattern)"),
+                (originalString: "", expectedResultRegexPattern: "^(?![\\s\\S])"),
             ]
             for testData in numerifyTestData {
                 context("When 'numerify' method is called on '\(testData.originalString)'") {
@@ -137,15 +118,15 @@ class StringExtensionTests: QuickSpec {
                 }
             }
 
-            let botifyTestData = [
-                TestData(originalString: "abc123", expectedResultRegexPattern: "abc123"),
-                TestData(originalString: "abc123#", expectedResultRegexPattern: "abc123\(numbersOnlyPattern)"),
-                TestData(originalString: "#abc123#", expectedResultRegexPattern: "\(numbersOnlyPattern)abc123\(numbersOnlyPattern)"),
-                TestData(originalString: "#abc#123#", expectedResultRegexPattern: "\(numbersOnlyPattern)abc\(numbersOnlyPattern)123\(numbersOnlyPattern)"),
-                TestData(originalString: "#abc#123#?", expectedResultRegexPattern: "\(numbersOnlyPattern)abc\(numbersOnlyPattern)123\(numbersOnlyPattern)\(lettersOnlyPattern)"),
-                TestData(originalString: "#?abc?123?#", expectedResultRegexPattern: "\(numbersOnlyPattern)\(lettersOnlyPattern)abc\(lettersOnlyPattern)123\(lettersOnlyPattern)\(numbersOnlyPattern)"),
-                TestData(originalString: "#?abc?#123?#", expectedResultRegexPattern: "\(numbersOnlyPattern)\(lettersOnlyPattern)abc\(lettersOnlyPattern)\(numbersOnlyPattern)123\(lettersOnlyPattern)\(numbersOnlyPattern)"),
-                TestData(originalString: "", expectedResultRegexPattern: "^(?![\\s\\S])"),
+            let botifyTestData: [(originalString: String, expectedResultRegexPattern: String)] = [
+                (originalString: "abc123", expectedResultRegexPattern: "abc123"),
+                (originalString: "abc123#", expectedResultRegexPattern: "abc123\(numbersOnlyPattern)"),
+                (originalString: "#abc123#", expectedResultRegexPattern: "\(numbersOnlyPattern)abc123\(numbersOnlyPattern)"),
+                (originalString: "#abc#123#", expectedResultRegexPattern: "\(numbersOnlyPattern)abc\(numbersOnlyPattern)123\(numbersOnlyPattern)"),
+                (originalString: "#abc#123#?", expectedResultRegexPattern: "\(numbersOnlyPattern)abc\(numbersOnlyPattern)123\(numbersOnlyPattern)\(lettersOnlyPattern)"),
+                (originalString: "#?abc?123?#", expectedResultRegexPattern: "\(numbersOnlyPattern)\(lettersOnlyPattern)abc\(lettersOnlyPattern)123\(lettersOnlyPattern)\(numbersOnlyPattern)"),
+                (originalString: "#?abc?#123?#", expectedResultRegexPattern: "\(numbersOnlyPattern)\(lettersOnlyPattern)abc\(lettersOnlyPattern)\(numbersOnlyPattern)123\(lettersOnlyPattern)\(numbersOnlyPattern)"),
+                (originalString: "", expectedResultRegexPattern: "^(?![\\s\\S])"),
             ]
             for testData in botifyTestData {
                 context("When 'botify' method is called on '\(testData.originalString)'") {

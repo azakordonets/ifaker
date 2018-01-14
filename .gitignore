@@ -70,3 +70,5 @@ fabric.properties
 fastlane/test_output
 test_output
 xcov_output
+build
+docs

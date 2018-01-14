@@ -1,14 +1,22 @@
-language: swift
-osx_image: xcode9
+matrix:
+  include:
+    - os: osx
+      osx_image: xcode9
+      language: objective-c
+      sudo: required
+    - os: osx
+      osx_image: xcode8.3
+      language: objective-c
+      sudo: required
 notifications:
-email: false
+  email: false
 branches:
-only:
-- master
+  only:
+  - master
 before_install:
-- gem install fastlane --no-ri --no-rdoc --no-document
+  - gem install fastlane --no-ri --no-rdoc --no-document
 jobs:
-include:
-- stage: XCTest
-script:
-- fastlane test
+  include:
+    - stage: XCTest
+  script:
+    - fastlane test

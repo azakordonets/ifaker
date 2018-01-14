@@ -232,6 +232,65 @@ class NumberExtensionTests: QuickSpec {
                     }
                 }
             }
+
+            let rangeCGFloatTestData: [(range: Range<CGFloat>, lowerBond: CGFloat, upperBond: CGFloat)] = [
+                (range: 0.1..<100.1, lowerBond: 0.1, upperBond: 100.1),
+                (range: 0.2..<1.5, lowerBond: 0.2, upperBond: 1.5),
+                (range: -0.2..<1.5, lowerBond: -0.2, upperBond: 1.5),
+                (range: -2.2..<(-0.5), lowerBond: -2.2, upperBond: -0.5)
+            ]
+
+            let closedRangeCGFloatTestData: [(range: ClosedRange<CGFloat>, lowerBond: CGFloat, upperBond: CGFloat)] = [
+                (range: 0.1...100.1, lowerBond:  0.1, upperBond: 100.1),
+                (range: 0.2...1.5, lowerBond:  0.2, upperBond: 1.5),
+                (range: -0.2...1.5, lowerBond: -0.2, upperBond: 1.5),
+                (range: -2.2...(-0.5), lowerBond: -2.2, upperBond: -0.5)
+            ]
+
+
+            rangeCGFloatTestData.forEach { testData in
+                describe("CGFloat extension") {
+                    context("When 'random' method is called with \(testData.range) range specified") {
+                        it("Should return random CGFloat number from that range") {
+                            let randomNumber = CGFloat.random(testData.range)
+                            expect(randomNumber).to(beAnInstanceOf(CGFloat.self))
+                            expect(randomNumber).to(beGreaterThanOrEqualTo(testData.lowerBond))
+                            expect(randomNumber).to(beLessThan(testData.upperBond))
+                        }
+                    }
+                    context("When 'random' method is called with \(testData.lowerBond) lower and \(testData.upperBond) upper bounds specified specified") {
+                        it("Should return random CGFloat number from that range") {
+                            let randomNumber = CGFloat.random(between: testData.lowerBond, and: testData.upperBond)
+                            expect(randomNumber).to(beAnInstanceOf(CGFloat.self))
+                            expect(randomNumber).to(beGreaterThanOrEqualTo(testData.lowerBond))
+                            expect(randomNumber).to(beLessThan(testData.upperBond))
+                        }
+                    }
+
+                    closedRangeCGFloatTestData.forEach { testData in
+                        context("When 'random' method is called with \(testData.range) closed range specified") {
+                            it("Should generate random number in that range including upper bond") {
+                                (0...10).forEach { _ in
+                                    let randomNumber = CGFloat.random(testData.range)
+                                    expect(randomNumber).to(beGreaterThanOrEqualTo(testData.lowerBond))
+                                    expect(randomNumber).to(beLessThanOrEqualTo(testData.upperBond))
+                                }
+
+                            }
+                        }
+
+                        context("When 'random' method is called with \(testData.lowerBond) lower, \(testData.upperBond) upper bond specified") {
+                            it("Should generate random number in that range") {
+                                (0...10).forEach { _ in
+                                    let randomNumber = CGFloat.random(between: testData.lowerBond, and: testData.upperBond)
+                                    expect(randomNumber).to(beGreaterThanOrEqualTo(testData.lowerBond))
+                                    expect(randomNumber).to(beLessThanOrEqualTo(testData.upperBond))
+                                }
+                            }
+                        }
+                    }
+                }
+            }
         }
     }
 }

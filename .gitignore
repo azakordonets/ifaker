@@ -73,3 +73,6 @@ xcov_output
 build
 docs
 report.xml
+*.xcuserstate
+project.xcworkspace/
+xcuserdata/

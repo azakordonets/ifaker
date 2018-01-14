@@ -115,6 +115,10 @@ public extension CGFloat {
 #endif
     }
 
+    public static func random(_ range: ClosedRange<CGFloat>) -> CGFloat {
+        return random(between: range.lowerBound, and: range.upperBound)
+    }
+
     /// iFaker public extension
     public static func random(between lower: CGFloat = 0, and upper: CGFloat = 1) -> CGFloat {
         return CGFloat(Float(arc4random()) / Float(UINT32_MAX)) * (upper - lower) + lower

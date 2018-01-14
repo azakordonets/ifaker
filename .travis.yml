@@ -1,4 +1,4 @@
-language: swifto
+language: swift
 osx_image: xcode9
 notifications:
 email: false

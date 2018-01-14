@@ -1,6 +1,4 @@
 language: objective-c
-os:
-- osx
 osx_image:
 - xcode9
 - xcode8.3

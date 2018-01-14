@@ -72,3 +72,4 @@ test_output
 xcov_output
 build
 docs
+report.xml

@@ -22,17 +22,17 @@ class NumberExtensionTests: QuickSpec {
     override func spec() {
 
         let countableRangeTestData: [(range: CountableRange<Int>, lowerBond: Int, upperBond: Int)] = [
-            (0..<100, 0, 100),
-            (0..<1, 0, 1),
-            (-200..<100, -200, 100),
-            (-200..<(-100), -200, -100)
+            (range: 0..<100, lowerBond: 0, upperBond: 100),
+            (range: 0..<1, lowerBond: 0, upperBond: 1),
+            (range: -200..<100, lowerBond: -200, upperBond: 100),
+            (range: -200..<(-100), lowerBond: -200, upperBond: -100)
         ]
 
         let closeCountableRangeTestData: [(range: CountableClosedRange<Int>, lowerBond: Int, upperBond: Int)] = [
-            (0...100, 0, 100),
-            (0...1, 0, 1),
-            (-200...1, -200, 1),
-            (-200...(-1), -200, -1)
+            (range: 0...100, lowerBond: 0, upperBond: 100),
+            (range: 0...1, lowerBond: 0, upperBond: 1),
+            (range: -200...100, lowerBond: -200, upperBond: 100),
+            (range: -200...(-100), lowerBond: -200, upperBond: -100)
         ]
 
         countableRangeTestData.forEach { testData in
@@ -116,17 +116,17 @@ class NumberExtensionTests: QuickSpec {
             }
 
             let rangeDoubleTestData: [(range: Range<Double>, lowerBond: Double, upperBond: Double)] = [
-                (0.1..<100.1, 0.1, 100.1),
-                (0.2..<1.5, 0.2, 1.5),
-                (-0.2..<1.5, -0.2, 1.5),
-                (-2.2..<(-0.5), -2.2, -0.5)
+                (range: 0.1..<100.1, lowerBond: 0.1, upperBond: 100.1),
+                (range: 0.2..<1.5, lowerBond: 0.2, upperBond: 1.5),
+                (range: -0.2..<1.5, lowerBond: -0.2, upperBond: 1.5),
+                (range: -2.2..<(-0.5), lowerBond: -2.2, upperBond: -0.5)
             ]
 
             let closedRangeDoubleTestData: [(range: ClosedRange<Double>, lowerBond: Double, upperBond: Double)] = [
-                (0.1...100.1, 0.1, 100.1),
-                (0.2...1.5, 0.2, 1.5),
-                (-0.2...1.5, -0.2, 1.5),
-                (-2.2...(-0.5), -2.2, -0.5)
+                (range: 0.1...100.1, lowerBond: 0.1, upperBond: 100.1),
+                (range: 0.2...1.5, lowerBond: 0.2, upperBond: 1.5),
+                (range: -0.2...1.5, lowerBond: -0.2, upperBond: 1.5),
+                (range: -2.2...(-0.5), lowerBond: -2.2, upperBond: -0.5)
             ]
 
 
@@ -175,44 +175,44 @@ class NumberExtensionTests: QuickSpec {
             }
 
             let rangeFloatTestData: [(range: Range<Float>, lowerBond: Float, upperBond: Float)] = [
-                (0.1..<100.1, 0.1, 100.1),
-                (0.2..<1.5, 0.2, 1.5),
-                (-0.2..<1.5, -0.2, 1.5),
-                (-2.2..<(-0.5), -2.2, -0.5)
+                (range: 0.1..<100.1, lowerBond: 0.1, upperBond: 100.1),
+                (range: 0.2..<1.5, lowerBond: 0.2, upperBond: 1.5),
+                (range: -0.2..<1.5, lowerBond: -0.2, upperBond: 1.5),
+                (range: -2.2..<(-0.5), lowerBond: -2.2, upperBond: -0.5)
             ]
 
             let closedRangeFloatTestData: [(range: ClosedRange<Float>, lowerBond: Float, upperBond: Float)] = [
-                (0.1...100.1, 0.1, 100.1),
-                (0.2...1.5, 0.2, 1.5),
-                (-0.2...1.5, -0.2, 1.5),
-                (-2.2...(-0.5), -2.2, -0.5)
+                (range: 0.1...100.1, lowerBond:  0.1, upperBond: 100.1),
+                (range: 0.2...1.5, lowerBond:  0.2, upperBond: 1.5),
+                (range: -0.2...1.5, lowerBond: -0.2, upperBond: 1.5),
+                (range: -2.2...(-0.5), lowerBond: -2.2, upperBond: -0.5)
             ]
 
 
-            rangeDoubleTestData.forEach { testData in
-                describe("Double extension") {
+            rangeFloatTestData.forEach { testData in
+                describe("Float extension") {
                     context("When 'random' method is called with \(testData.range) range specified") {
-                        it("Should return random Double number from that range") {
-                            let randomNumber = Double.random(testData.range)
-                            expect(randomNumber).to(beAnInstanceOf(Double.self))
+                        it("Should return random Float number from that range") {
+                            let randomNumber = Float.random(testData.range)
+                            expect(randomNumber).to(beAnInstanceOf(Float.self))
                             expect(randomNumber).to(beGreaterThanOrEqualTo(testData.lowerBond))
                             expect(randomNumber).to(beLessThan(testData.upperBond))
                         }
                     }
                     context("When 'random' method is called with \(testData.lowerBond) lower and \(testData.upperBond) upper bounds specified specified") {
-                        it("Should return random Double number from that range") {
-                            let randomNumber = Double.random(between: testData.lowerBond, and: testData.upperBond)
-                            expect(randomNumber).to(beAnInstanceOf(Double.self))
+                        it("Should return random Float number from that range") {
+                            let randomNumber = Float.random(between: testData.lowerBond, and: testData.upperBond)
+                            expect(randomNumber).to(beAnInstanceOf(Float.self))
                             expect(randomNumber).to(beGreaterThanOrEqualTo(testData.lowerBond))
                             expect(randomNumber).to(beLessThan(testData.upperBond))
                         }
                     }
 
-                    closedRangeDoubleTestData.forEach { testData in
+                    closedRangeFloatTestData.forEach { testData in
                         context("When 'random' method is called with \(testData.range) closed range specified") {
                             it("Should generate random number in that range including upper bond") {
                                 (0...10).forEach { _ in
-                                    let randomNumber = Double.random(testData.range)
+                                    let randomNumber = Float.random(testData.range)
                                     expect(randomNumber).to(beGreaterThanOrEqualTo(testData.lowerBond))
                                     expect(randomNumber).to(beLessThanOrEqualTo(testData.upperBond))
                                 }
@@ -223,7 +223,7 @@ class NumberExtensionTests: QuickSpec {
                         context("When 'random' method is called with \(testData.lowerBond) lower, \(testData.upperBond) upper bond specified") {
                             it("Should generate random number in that range") {
                                 (0...10).forEach { _ in
-                                    let randomNumber = Double.random(between: testData.lowerBond, and: testData.upperBond)
+                                    let randomNumber = Float.random(between: testData.lowerBond, and: testData.upperBond)
                                     expect(randomNumber).to(beGreaterThanOrEqualTo(testData.lowerBond))
                                     expect(randomNumber).to(beLessThanOrEqualTo(testData.upperBond))
                                 }

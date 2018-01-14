@@ -36,6 +36,14 @@ class ArraySliceExtensionTests: QuickSpec {
                     expect(firstRandomNumber).notTo(equal(secondRandomNumber))
                 }
             }
+            context("When i call 'randomElement' method on empty array") {
+                it("Should return nil") {
+                    let array = [Int]()
+                    let midpoint = array.count / 2
+                    let arraySlice: ArraySlice<Int> = array[midpoint...]
+                    expect(arraySlice.randomItem()).to(beNil())
+                }
+            }
         }
 
     }

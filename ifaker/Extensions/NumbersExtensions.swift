@@ -94,6 +94,10 @@ public extension Float {
 #endif
     }
 
+    public static func random(_ range: ClosedRange<Float>) -> Float {
+        return random(between: range.lowerBound, and: range.upperBound)
+    }
+
     /// iFaker public extension
     public static func random(between lower: Float = 0, and upper: Float = 100) -> Float {
         return (Float(arc4random()) / 0xFFFFFFFF) * (upper - lower) + lower

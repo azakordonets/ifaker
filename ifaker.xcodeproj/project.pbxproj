@@ -15,6 +15,7 @@
 		70632FAB1FD737D5006E201E /* ifaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 70632F9D1FD737D5006E201E /* ifaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		706D55122000122E00324593 /* BooleanExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A051D038DC7AD29483F65541 /* BooleanExtension.swift */; };
 		70A359421FFCC088007D3251 /* words.plist in Resources */ = {isa = PBXBuildFile; fileRef = A051DE6130C948301D087620 /* words.plist */; };
+		70AC29F3200BAE7C00678AE4 /* .travis.yml in Resources */ = {isa = PBXBuildFile; fileRef = 70AC29F2200BAE7C00678AE4 /* .travis.yml */; };
 		A051D17A8519FBFDBBB24D02 /* ArrayExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A051D117930ABE1EFA92DFA0 /* ArrayExtensionTests.swift */; };
 		A051D2757F6D82B6F7960CE3 /* BooleanExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A051D038DC7AD29483F65541 /* BooleanExtension.swift */; };
 		A051D2AD26DEEF5C39A99614 /* BooleanExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A051D68893E795E2486A9D4D /* BooleanExtensionTests.swift */; };
@@ -56,6 +57,7 @@
 		70632F9E1FD737D5006E201E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		70632FA31FD737D5006E201E /* ifakerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ifakerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		70632FAA1FD737D5006E201E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70AC29F2200BAE7C00678AE4 /* .travis.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = .travis.yml; sourceTree = "<group>"; };
 		81E720BBC6D5F7EEEFA8C473 /* Pods_ifakerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ifakerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A051D0276A6E0A1BFE256470 /* PlistReaderTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlistReaderTests.swift; sourceTree = "<group>"; };
 		A051D038DC7AD29483F65541 /* BooleanExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BooleanExtension.swift; sourceTree = "<group>"; };
@@ -107,6 +109,7 @@
 		70632F901FD737D5006E201E = {
 			isa = PBXGroup;
 			children = (
+				70AC29F2200BAE7C00678AE4 /* .travis.yml */,
 				70632F9C1FD737D5006E201E /* ifaker */,
 				70632FA71FD737D5006E201E /* ifakerTests */,
 				70632F9B1FD737D5006E201E /* Products */,
@@ -297,6 +300,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70AC29F3200BAE7C00678AE4 /* .travis.yml in Resources */,
 				A051DE74E30D02CDB87E565F /* .gitignore in Resources */,
 				A051D540ED9F283A7770117E /* words.plist in Resources */,
 			);

@@ -1,0 +1,14 @@
+language: swifto
+osx_image: xcode9
+notifications:
+email: false
+branches:
+only:
+- master
+before_install:
+- gem install fastlane --no-ri --no-rdoc --no-document
+jobs:
+include:
+- stage: XCTest
+script:
+- fastlane test

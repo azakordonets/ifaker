@@ -39,4 +39,24 @@ struct RandomContactInformation {
         let suffix = useSuffix ? self.suffix() : ""
         return "\(prefix) \(firstName) \(lastName) \(suffix)".trimmingCharacters(in: .whitespaces)
     }
+
+    static func birthDate(at age: Int) -> Date {
+        guard let birthDate = Calendar.current.date(byAdding: .year, value: -age, to: Date()) else {
+            print("Couldn't create birthdate for \(age) years old person")
+            return Date()
+        }
+        return birthDate
+    }
+
+    static func birthDate(at age: Int, withFormat format: String = "dd/MM/yyyy") -> String {
+        let dateFormatter = DateFormatter()
+        dateFormatter.dateFormat = format
+        return dateFormatter.string(from: self.birthDate(at: age))
+    }
+
+    static func email(using domain: String = "test.com") -> String {
+        return "\(RandomContactInformation.firstName())_" +
+                "\(RandomContactInformation.lastName())\(Int.random(between: 0, and: 1000))\(domain)".lowercased()
+    }
+
 }

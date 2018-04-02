@@ -17,6 +17,7 @@
 		70AC29F3200BAE7C00678AE4 /* .travis.yml in Resources */ = {isa = PBXBuildFile; fileRef = 70AC29F2200BAE7C00678AE4 /* .travis.yml */; };
 		A051D06606D69E9557E78DA3 /* Names.swift in Sources */ = {isa = PBXBuildFile; fileRef = A051D23D3C01A01DB5604D51 /* Names.swift */; };
 		A051D0D89374E6893B9F2D44 /* UserAgent.swift in Sources */ = {isa = PBXBuildFile; fileRef = A051D49DA845A5B248A8AA16 /* UserAgent.swift */; };
+		A051D0E47D84A33C82F1617A /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = A051D1C9EA843E764500F717 /* Country.swift */; };
 		A051D0FC7D5E57DEE29F2ECC /* company.plist in Resources */ = {isa = PBXBuildFile; fileRef = A051D3DD95A583718371756A /* company.plist */; };
 		A051D10235B8A049F027701E /* personal_data.plist in Resources */ = {isa = PBXBuildFile; fileRef = A051D0924AF02C31226C7751 /* personal_data.plist */; };
 		A051D141667760E9F63D1608 /* file.plist in Resources */ = {isa = PBXBuildFile; fileRef = A051DA9DE113586AA8E4A643 /* file.plist */; };
@@ -62,6 +63,7 @@
 		A051DC40E54124C8DF2BB169 /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = A051D9D817ED714F2F5B53A7 /* Address.swift */; };
 		A051DD003D1A4B680730010D /* PlistReaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A051D0276A6E0A1BFE256470 /* PlistReaderTests.swift */; };
 		A051DD57F5BC0BA4838B35F7 /* user_agent.plist in Resources */ = {isa = PBXBuildFile; fileRef = A051DD56047117DF33272585 /* user_agent.plist */; };
+		A051DD8D90B3AABF5BA4D660 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = A051D1C9EA843E764500F717 /* Country.swift */; };
 		A051DDD662A81BBDF911AC44 /* internet.plist in Resources */ = {isa = PBXBuildFile; fileRef = A051D2DFFE7A59720828928D /* internet.plist */; };
 		A051DE02C03D687E5721E42C /* finance.plist in Resources */ = {isa = PBXBuildFile; fileRef = A051D748C71BA3AC31955C1B /* finance.plist */; };
 		A051DE390298D72D37B8BFF1 /* NumbersExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A051D7F63F4916B560D88CC5 /* NumbersExtensions.swift */; };
@@ -102,6 +104,7 @@
 		A051D094262A2F1092142E34 /* NumberExtentionsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumberExtentionsTests.swift; sourceTree = "<group>"; };
 		A051D0E42BBF3AB1B7270DD5 /* Words.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Words.swift; sourceTree = "<group>"; };
 		A051D117930ABE1EFA92DFA0 /* ArrayExtensionTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayExtensionTests.swift; sourceTree = "<group>"; };
+		A051D1C9EA843E764500F717 /* Country.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
 		A051D1E003B0EE8021712A3B /* names.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = names.plist; sourceTree = "<group>"; };
 		A051D23D3C01A01DB5604D51 /* Names.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Names.swift; sourceTree = "<group>"; };
 		A051D2DFFE7A59720828928D /* internet.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = internet.plist; sourceTree = "<group>"; };
@@ -193,7 +196,8 @@
 				A051D167CA58633D69D7F57F /* Extensions */,
 				A051D7A29076F20D703E33D0 /* Utils */,
 				A051D30CF26DA6FB8C49326D /* Generators */,
-				A051DD6682CBE638F843ED31 /* DataEntities */,
+				A051DD6682CBE638F843ED31 /* DecodableEntities */,
+				A051DC2718EDA20958194BB8 /* DataEntities */,
 			);
 			path = ifaker;
 			sourceTree = "<group>";
@@ -273,7 +277,15 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		A051DD6682CBE638F843ED31 /* DataEntities */ = {
+		A051DC2718EDA20958194BB8 /* DataEntities */ = {
+			isa = PBXGroup;
+			children = (
+				A051D1C9EA843E764500F717 /* Country.swift */,
+			);
+			path = DataEntities;
+			sourceTree = "<group>";
+		};
+		A051DD6682CBE638F843ED31 /* DecodableEntities */ = {
 			isa = PBXGroup;
 			children = (
 				A051D23D3C01A01DB5604D51 /* Names.swift */,
@@ -287,7 +299,7 @@
 				A051D2F569E6ECFD899E6F1A /* PersonalData.swift */,
 				A051DC78F45CC9CF9C24BC9E /* File.swift */,
 			);
-			path = DataEntities;
+			path = DecodableEntities;
 			sourceTree = "<group>";
 		};
 		F469A75CE11289CF5488A219 /* Pods */ = {
@@ -544,6 +556,7 @@
 				A051DF7CB03038C404E79AF8 /* Finance.swift in Sources */,
 				A051D993A5FC3F275C53858B /* PersonalData.swift in Sources */,
 				A051DF8EF7E0673B607E64CC /* File.swift in Sources */,
+				A051D0E47D84A33C82F1617A /* Country.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -574,6 +587,7 @@
 				A051D87536C93CAF522AE710 /* Finance.swift in Sources */,
 				A051D340377A593DDE3B3129 /* PersonalData.swift in Sources */,
 				A051D6C60CE0C8F0CB17FBB8 /* File.swift in Sources */,
+				A051DD8D90B3AABF5BA4D660 /* Country.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

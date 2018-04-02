@@ -72,6 +72,57 @@ class ContactGeneratorTests: QuickSpec {
                             description: "I expect suffix to be present in array of test names")
                 }
             }
+            context("When 'birthdate' method is called with age specified ") {
+                it("Should date from now minus specified age") {
+                    let age = 25
+                    let birthDate = RandomContactInformation.birthDate(at: age)
+                    guard let currentDay = Calendar.current.dateComponents(in: .current, from: Date()).day else {
+                        return
+                    }
+                    guard let currentMonth = Calendar.current.dateComponents(in: .current, from: Date()).month else {
+                        return
+                    }
+                    guard let currentYear = Calendar.current.dateComponents(in: .current, from: Date()).year else {
+                        return
+                    }
+
+                    guard let birthDateDay = Calendar.current.dateComponents(in: .autoupdatingCurrent, from: birthDate).day else {
+                        return
+                    }
+
+                    guard let birthDateMonth = Calendar.current.dateComponents(in: .autoupdatingCurrent, from: birthDate).month else {
+                        return
+                    }
+
+                    guard let birthDateYear = Calendar.current.dateComponents(in: .autoupdatingCurrent, from: birthDate).year else {
+                        return
+                    }
+                    expect(birthDateDay).to(equal(currentDay), description: "Birthdate day should be equal to current day")
+                    expect(birthDateMonth).to(equal(currentMonth), description: "Birthdate month should be equal to current day")
+                    expect(birthDateYear).to(equal(currentYear - age), description: "Birthdate year should be currentYear - age")
+                }
+            }
+            context("When 'birthdate' method is called with age and format specified ") {
+                it("Should date from now minus specified age with specific format") {
+                    let age = 25
+                    let format = "MM/dd/yyyy"
+                    let birthDate = RandomContactInformation.birthDate(at: age, withFormat: format)
+                    guard let expectedDate = Calendar.current.date(byAdding: .year, value: -25, to: Date()) else {
+                        return
+                    }
+                    let dateFormatter = DateFormatter()
+                    dateFormatter.dateFormat = format
+                    expect(birthDate).to(equal(dateFormatter.string(from: expectedDate)))
+                }
+            }
+            context("When 'email' method is called") {
+                it("Should return random email") {
+                    let emailRegEx = "[A-Z0-9a-z._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,64}"
+                    let emailTest = NSPredicate(format:"SELF MATCHES %@", emailRegEx)
+                    let email = RandomContactInformation.email()
+                    expect(emailTest.evaluate(with: email)).to(beTrue())
+                }
+            }
         }
     }
 }

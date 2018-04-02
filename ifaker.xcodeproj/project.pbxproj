@@ -9,33 +9,68 @@
 /* Begin PBXBuildFile section */
 		0203C9C45A7C35C9CC8EFDE4 /* Pods_ifaker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E65BBF468A35102443318AE /* Pods_ifaker.framework */; };
 		5F2BFAA3D519F1F9626395AF /* Pods_ifakerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81E720BBC6D5F7EEEFA8C473 /* Pods_ifakerTests.framework */; };
-		70283E441FFD87F100237AE8 /* TestDataKeeper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70283E431FFD87F100237AE8 /* TestDataKeeper.swift */; };
-		70283E451FFD87F100237AE8 /* TestDataKeeper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70283E431FFD87F100237AE8 /* TestDataKeeper.swift */; };
 		70632FA41FD737D5006E201E /* ifaker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70632F9A1FD737D5006E201E /* ifaker.framework */; };
 		70632FAB1FD737D5006E201E /* ifaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 70632F9D1FD737D5006E201E /* ifaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		706D55122000122E00324593 /* BooleanExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A051D038DC7AD29483F65541 /* BooleanExtension.swift */; };
 		70A359421FFCC088007D3251 /* words.plist in Resources */ = {isa = PBXBuildFile; fileRef = A051DE6130C948301D087620 /* words.plist */; };
+		70A6DC7E20725287003F87BF /* ContactGeneratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A6DC7D20725287003F87BF /* ContactGeneratorTests.swift */; };
 		70AC29F3200BAE7C00678AE4 /* .travis.yml in Resources */ = {isa = PBXBuildFile; fileRef = 70AC29F2200BAE7C00678AE4 /* .travis.yml */; };
+		A051D06606D69E9557E78DA3 /* Names.swift in Sources */ = {isa = PBXBuildFile; fileRef = A051D23D3C01A01DB5604D51 /* Names.swift */; };
+		A051D0D89374E6893B9F2D44 /* UserAgent.swift in Sources */ = {isa = PBXBuildFile; fileRef = A051D49DA845A5B248A8AA16 /* UserAgent.swift */; };
+		A051D0FC7D5E57DEE29F2ECC /* company.plist in Resources */ = {isa = PBXBuildFile; fileRef = A051D3DD95A583718371756A /* company.plist */; };
+		A051D10235B8A049F027701E /* personal_data.plist in Resources */ = {isa = PBXBuildFile; fileRef = A051D0924AF02C31226C7751 /* personal_data.plist */; };
+		A051D141667760E9F63D1608 /* file.plist in Resources */ = {isa = PBXBuildFile; fileRef = A051DA9DE113586AA8E4A643 /* file.plist */; };
+		A051D14185F0F82FA384FA0A /* internet.plist in Resources */ = {isa = PBXBuildFile; fileRef = A051D2DFFE7A59720828928D /* internet.plist */; };
 		A051D17A8519FBFDBBB24D02 /* ArrayExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A051D117930ABE1EFA92DFA0 /* ArrayExtensionTests.swift */; };
+		A051D1807674C0986E0300E1 /* names.plist in Resources */ = {isa = PBXBuildFile; fileRef = A051D1E003B0EE8021712A3B /* names.plist */; };
+		A051D23651CF14E282CE7650 /* Internet.swift in Sources */ = {isa = PBXBuildFile; fileRef = A051D4003861CDBE71862B60 /* Internet.swift */; };
+		A051D23E348AFB5D8A0C60D6 /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = A051D9D817ED714F2F5B53A7 /* Address.swift */; };
 		A051D2757F6D82B6F7960CE3 /* BooleanExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A051D038DC7AD29483F65541 /* BooleanExtension.swift */; };
+		A051D28473DC607FF6F59384 /* company.plist in Resources */ = {isa = PBXBuildFile; fileRef = A051D3DD95A583718371756A /* company.plist */; };
 		A051D2AD26DEEF5C39A99614 /* BooleanExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A051D68893E795E2486A9D4D /* BooleanExtensionTests.swift */; };
-		A051D38B52140EB898B807CB /* PlistReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A051DDF4B606280C92C1715C /* PlistReader.swift */; };
+		A051D340377A593DDE3B3129 /* PersonalData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A051D2F569E6ECFD899E6F1A /* PersonalData.swift */; };
+		A051D3751259ECE544B08FCB /* Names.swift in Sources */ = {isa = PBXBuildFile; fileRef = A051D23D3C01A01DB5604D51 /* Names.swift */; };
+		A051D38B52140EB898B807CB /* ResourcesPlistDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A051DDF4B606280C92C1715C /* ResourcesPlistDecoder.swift */; };
+		A051D3E9DB8FD8175734073A /* address.plist in Resources */ = {isa = PBXBuildFile; fileRef = A051DAFC093CAC34BA8AEAA0 /* address.plist */; };
+		A051D3F96A46732E10CD46C6 /* Words.swift in Sources */ = {isa = PBXBuildFile; fileRef = A051D0E42BBF3AB1B7270DD5 /* Words.swift */; };
+		A051D44BC90E020EC942618E /* file.plist in Resources */ = {isa = PBXBuildFile; fileRef = A051DA9DE113586AA8E4A643 /* file.plist */; };
+		A051D4553B2344DDCBCC947B /* names.plist in Resources */ = {isa = PBXBuildFile; fileRef = A051D1E003B0EE8021712A3B /* names.plist */; };
 		A051D46044445897496D4271 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A051DECC39701ADC0F6DAE42 /* StringExtension.swift */; };
 		A051D4E97C8D2F460B2DA4E6 /* NumbersExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A051D7F63F4916B560D88CC5 /* NumbersExtensions.swift */; };
 		A051D51E79ADAD62807F898D /* StringExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A051D5EB060347FD14E14692 /* StringExtensionTests.swift */; };
+		A051D52294467C637720A1E6 /* Company.swift in Sources */ = {isa = PBXBuildFile; fileRef = A051DEE19ABF2F286EE5F529 /* Company.swift */; };
 		A051D540ED9F283A7770117E /* words.plist in Resources */ = {isa = PBXBuildFile; fileRef = A051DE6130C948301D087620 /* words.plist */; };
+		A051D5535E3CB7DD23DE8C56 /* personal_data.plist in Resources */ = {isa = PBXBuildFile; fileRef = A051D0924AF02C31226C7751 /* personal_data.plist */; };
+		A051D5D4977E89B6E5CE7FD5 /* NonExisting.swift in Sources */ = {isa = PBXBuildFile; fileRef = A051DA7DCAC091C43872FC08 /* NonExisting.swift */; };
+		A051D6C60CE0C8F0CB17FBB8 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = A051DC78F45CC9CF9C24BC9E /* File.swift */; };
 		A051D7069D13B9BBA877ED22 /* ArraySlice.swift in Sources */ = {isa = PBXBuildFile; fileRef = A051D8CD1E44292C32FEC988 /* ArraySlice.swift */; };
+		A051D70CE99E8A1916E3A009 /* Words.swift in Sources */ = {isa = PBXBuildFile; fileRef = A051D0E42BBF3AB1B7270DD5 /* Words.swift */; };
+		A051D7476C15F1B5FA0D3587 /* user_agent.plist in Resources */ = {isa = PBXBuildFile; fileRef = A051DD56047117DF33272585 /* user_agent.plist */; };
 		A051D7BB300C4461D425A8E7 /* ArraySliceExtensionTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A051D51D8CA2FD5031D00D02 /* ArraySliceExtensionTest.swift */; };
-		A051D7C684F8003B2AC7EC84 /* PlistReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A051DDF4B606280C92C1715C /* PlistReader.swift */; };
+		A051D7C684F8003B2AC7EC84 /* ResourcesPlistDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A051DDF4B606280C92C1715C /* ResourcesPlistDecoder.swift */; };
 		A051D7D6039FA0494DC37614 /* ArraySlice.swift in Sources */ = {isa = PBXBuildFile; fileRef = A051D8CD1E44292C32FEC988 /* ArraySlice.swift */; };
+		A051D7E756F04EAABE20338C /* Company.swift in Sources */ = {isa = PBXBuildFile; fileRef = A051DEE19ABF2F286EE5F529 /* Company.swift */; };
+		A051D8019E8E1E80D5887F09 /* RandomContactInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A051DC3DB0D042FD80AC9B31 /* RandomContactInformation.swift */; };
+		A051D806E3E63D43F100DB0D /* finance.plist in Resources */ = {isa = PBXBuildFile; fileRef = A051D748C71BA3AC31955C1B /* finance.plist */; };
 		A051D8569BF707AD5BD02E97 /* ArrayExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A051DB3A85D58ED4904BB8F3 /* ArrayExtension.swift */; };
+		A051D87536C93CAF522AE710 /* Finance.swift in Sources */ = {isa = PBXBuildFile; fileRef = A051DA319D9DF3F8E4166661 /* Finance.swift */; };
+		A051D993A5FC3F275C53858B /* PersonalData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A051D2F569E6ECFD899E6F1A /* PersonalData.swift */; };
 		A051DA1C915B7E8A48EDF552 /* NumberExtentionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A051D094262A2F1092142E34 /* NumberExtentionsTests.swift */; };
-		A051DA3FBD58B283DA3AA7D1 /* testdata.plist in Resources */ = {isa = PBXBuildFile; fileRef = A051D0ED27264BD390331437 /* testdata.plist */; };
-		A051DA921727ED50C76B8D93 /* testdata.plist in Resources */ = {isa = PBXBuildFile; fileRef = A051D0ED27264BD390331437 /* testdata.plist */; };
+		A051DAE9D0B02636A4F8FD6D /* UserAgent.swift in Sources */ = {isa = PBXBuildFile; fileRef = A051D49DA845A5B248A8AA16 /* UserAgent.swift */; };
+		A051DB5D68D5917ED145CECF /* RandomContactInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A051DC3DB0D042FD80AC9B31 /* RandomContactInformation.swift */; };
+		A051DB802C375889756E505E /* Internet.swift in Sources */ = {isa = PBXBuildFile; fileRef = A051D4003861CDBE71862B60 /* Internet.swift */; };
+		A051DC40E54124C8DF2BB169 /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = A051D9D817ED714F2F5B53A7 /* Address.swift */; };
 		A051DD003D1A4B680730010D /* PlistReaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A051D0276A6E0A1BFE256470 /* PlistReaderTests.swift */; };
+		A051DD57F5BC0BA4838B35F7 /* user_agent.plist in Resources */ = {isa = PBXBuildFile; fileRef = A051DD56047117DF33272585 /* user_agent.plist */; };
+		A051DDD662A81BBDF911AC44 /* internet.plist in Resources */ = {isa = PBXBuildFile; fileRef = A051D2DFFE7A59720828928D /* internet.plist */; };
+		A051DE02C03D687E5721E42C /* finance.plist in Resources */ = {isa = PBXBuildFile; fileRef = A051D748C71BA3AC31955C1B /* finance.plist */; };
 		A051DE390298D72D37B8BFF1 /* NumbersExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A051D7F63F4916B560D88CC5 /* NumbersExtensions.swift */; };
 		A051DE74E30D02CDB87E565F /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = A051D33A4F07D6265F632200 /* .gitignore */; };
 		A051DF628D99114D1AE17600 /* ArrayExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A051DB3A85D58ED4904BB8F3 /* ArrayExtension.swift */; };
+		A051DF70968BDF4A779606D8 /* NonExisting.swift in Sources */ = {isa = PBXBuildFile; fileRef = A051DA7DCAC091C43872FC08 /* NonExisting.swift */; };
+		A051DF7CB03038C404E79AF8 /* Finance.swift in Sources */ = {isa = PBXBuildFile; fileRef = A051DA319D9DF3F8E4166661 /* Finance.swift */; };
+		A051DF8EF7E0673B607E64CC /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = A051DC78F45CC9CF9C24BC9E /* File.swift */; };
+		A051DF96ABB986EDE1553B48 /* address.plist in Resources */ = {isa = PBXBuildFile; fileRef = A051DAFC093CAC34BA8AEAA0 /* address.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,29 +88,47 @@
 		5B852D7B22E1D8BA2E77DE97 /* Pods-ifaker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ifaker.release.xcconfig"; path = "Pods/Target Support Files/Pods-ifaker/Pods-ifaker.release.xcconfig"; sourceTree = "<group>"; };
 		62AF14D699650CAF3B06BFAB /* Pods-ifakerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ifakerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ifakerTests/Pods-ifakerTests.release.xcconfig"; sourceTree = "<group>"; };
 		6B806A04CA925381D621382C /* Pods-ifaker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ifaker.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ifaker/Pods-ifaker.debug.xcconfig"; sourceTree = "<group>"; };
-		70283E431FFD87F100237AE8 /* TestDataKeeper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestDataKeeper.swift; sourceTree = "<group>"; };
 		70632F9A1FD737D5006E201E /* ifaker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ifaker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		70632F9D1FD737D5006E201E /* ifaker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ifaker.h; sourceTree = "<group>"; };
 		70632F9E1FD737D5006E201E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		70632FA31FD737D5006E201E /* ifakerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ifakerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		70632FAA1FD737D5006E201E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70A6DC7D20725287003F87BF /* ContactGeneratorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactGeneratorTests.swift; sourceTree = "<group>"; };
 		70AC29F2200BAE7C00678AE4 /* .travis.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = .travis.yml; sourceTree = "<group>"; };
 		81E720BBC6D5F7EEEFA8C473 /* Pods_ifakerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ifakerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A051D0276A6E0A1BFE256470 /* PlistReaderTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlistReaderTests.swift; sourceTree = "<group>"; };
 		A051D038DC7AD29483F65541 /* BooleanExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BooleanExtension.swift; sourceTree = "<group>"; };
+		A051D0924AF02C31226C7751 /* personal_data.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = personal_data.plist; sourceTree = "<group>"; };
 		A051D094262A2F1092142E34 /* NumberExtentionsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumberExtentionsTests.swift; sourceTree = "<group>"; };
-		A051D0ED27264BD390331437 /* testdata.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = testdata.plist; sourceTree = "<group>"; };
+		A051D0E42BBF3AB1B7270DD5 /* Words.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Words.swift; sourceTree = "<group>"; };
 		A051D117930ABE1EFA92DFA0 /* ArrayExtensionTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayExtensionTests.swift; sourceTree = "<group>"; };
+		A051D1E003B0EE8021712A3B /* names.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = names.plist; sourceTree = "<group>"; };
+		A051D23D3C01A01DB5604D51 /* Names.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Names.swift; sourceTree = "<group>"; };
+		A051D2DFFE7A59720828928D /* internet.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = internet.plist; sourceTree = "<group>"; };
+		A051D2F569E6ECFD899E6F1A /* PersonalData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonalData.swift; sourceTree = "<group>"; };
 		A051D33A4F07D6265F632200 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = file.gitignore; path = .gitignore; sourceTree = "<group>"; };
+		A051D3DD95A583718371756A /* company.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = company.plist; sourceTree = "<group>"; };
+		A051D4003861CDBE71862B60 /* Internet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Internet.swift; sourceTree = "<group>"; };
+		A051D49DA845A5B248A8AA16 /* UserAgent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserAgent.swift; sourceTree = "<group>"; };
 		A051D51D8CA2FD5031D00D02 /* ArraySliceExtensionTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArraySliceExtensionTest.swift; sourceTree = "<group>"; };
 		A051D5EB060347FD14E14692 /* StringExtensionTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtensionTests.swift; sourceTree = "<group>"; };
 		A051D68893E795E2486A9D4D /* BooleanExtensionTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BooleanExtensionTests.swift; sourceTree = "<group>"; };
+		A051D748C71BA3AC31955C1B /* finance.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = finance.plist; sourceTree = "<group>"; };
 		A051D7F63F4916B560D88CC5 /* NumbersExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumbersExtensions.swift; sourceTree = "<group>"; };
 		A051D8CD1E44292C32FEC988 /* ArraySlice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArraySlice.swift; sourceTree = "<group>"; };
+		A051D9D817ED714F2F5B53A7 /* Address.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Address.swift; sourceTree = "<group>"; };
+		A051DA319D9DF3F8E4166661 /* Finance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Finance.swift; sourceTree = "<group>"; };
+		A051DA7DCAC091C43872FC08 /* NonExisting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NonExisting.swift; sourceTree = "<group>"; };
+		A051DA9DE113586AA8E4A643 /* file.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = file.plist; sourceTree = "<group>"; };
+		A051DAFC093CAC34BA8AEAA0 /* address.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = address.plist; sourceTree = "<group>"; };
 		A051DB3A85D58ED4904BB8F3 /* ArrayExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayExtension.swift; sourceTree = "<group>"; };
-		A051DDF4B606280C92C1715C /* PlistReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlistReader.swift; sourceTree = "<group>"; };
+		A051DC3DB0D042FD80AC9B31 /* RandomContactInformation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RandomContactInformation.swift; sourceTree = "<group>"; };
+		A051DC78F45CC9CF9C24BC9E /* File.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		A051DD56047117DF33272585 /* user_agent.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = user_agent.plist; sourceTree = "<group>"; };
+		A051DDF4B606280C92C1715C /* ResourcesPlistDecoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResourcesPlistDecoder.swift; sourceTree = "<group>"; };
 		A051DE6130C948301D087620 /* words.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = words.plist; sourceTree = "<group>"; };
 		A051DECC39701ADC0F6DAE42 /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		A051DEE19ABF2F286EE5F529 /* Company.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Company.swift; sourceTree = "<group>"; };
 		D7B9E00996DC94C054C34B1B /* Pods-ifakerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ifakerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ifakerTests/Pods-ifakerTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -139,6 +192,8 @@
 				70632F9E1FD737D5006E201E /* Info.plist */,
 				A051D167CA58633D69D7F57F /* Extensions */,
 				A051D7A29076F20D703E33D0 /* Utils */,
+				A051D30CF26DA6FB8C49326D /* Generators */,
+				A051DD6682CBE638F843ED31 /* DataEntities */,
 			);
 			path = ifaker;
 			sourceTree = "<group>";
@@ -149,8 +204,17 @@
 				70632FAA1FD737D5006E201E /* Info.plist */,
 				A051D0276A6E0A1BFE256470 /* PlistReaderTests.swift */,
 				A051D70B45719DA9E07FACAB /* Extensions */,
+				A051D04E5D504C1AE1EE2A42 /* Generators */,
 			);
 			path = ifakerTests;
+			sourceTree = "<group>";
+		};
+		A051D04E5D504C1AE1EE2A42 /* Generators */ = {
+			isa = PBXGroup;
+			children = (
+				70A6DC7D20725287003F87BF /* ContactGeneratorTests.swift */,
+			);
+			path = Generators;
 			sourceTree = "<group>";
 		};
 		A051D167CA58633D69D7F57F /* Extensions */ = {
@@ -163,6 +227,14 @@
 				A051D7F63F4916B560D88CC5 /* NumbersExtensions.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		A051D30CF26DA6FB8C49326D /* Generators */ = {
+			isa = PBXGroup;
+			children = (
+				A051DC3DB0D042FD80AC9B31 /* RandomContactInformation.swift */,
+			);
+			path = Generators;
 			sourceTree = "<group>";
 		};
 		A051D70B45719DA9E07FACAB /* Extensions */ = {
@@ -180,8 +252,7 @@
 		A051D7A29076F20D703E33D0 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
-				A051DDF4B606280C92C1715C /* PlistReader.swift */,
-				70283E431FFD87F100237AE8 /* TestDataKeeper.swift */,
+				A051DDF4B606280C92C1715C /* ResourcesPlistDecoder.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -190,9 +261,33 @@
 			isa = PBXGroup;
 			children = (
 				A051DE6130C948301D087620 /* words.plist */,
-				A051D0ED27264BD390331437 /* testdata.plist */,
+				A051D1E003B0EE8021712A3B /* names.plist */,
+				A051DAFC093CAC34BA8AEAA0 /* address.plist */,
+				A051D3DD95A583718371756A /* company.plist */,
+				A051D2DFFE7A59720828928D /* internet.plist */,
+				A051DD56047117DF33272585 /* user_agent.plist */,
+				A051D748C71BA3AC31955C1B /* finance.plist */,
+				A051D0924AF02C31226C7751 /* personal_data.plist */,
+				A051DA9DE113586AA8E4A643 /* file.plist */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		A051DD6682CBE638F843ED31 /* DataEntities */ = {
+			isa = PBXGroup;
+			children = (
+				A051D23D3C01A01DB5604D51 /* Names.swift */,
+				A051DA7DCAC091C43872FC08 /* NonExisting.swift */,
+				A051D0E42BBF3AB1B7270DD5 /* Words.swift */,
+				A051D9D817ED714F2F5B53A7 /* Address.swift */,
+				A051DEE19ABF2F286EE5F529 /* Company.swift */,
+				A051D4003861CDBE71862B60 /* Internet.swift */,
+				A051D49DA845A5B248A8AA16 /* UserAgent.swift */,
+				A051DA319D9DF3F8E4166661 /* Finance.swift */,
+				A051D2F569E6ECFD899E6F1A /* PersonalData.swift */,
+				A051DC78F45CC9CF9C24BC9E /* File.swift */,
+			);
+			path = DataEntities;
 			sourceTree = "<group>";
 		};
 		F469A75CE11289CF5488A219 /* Pods */ = {
@@ -307,7 +402,14 @@
 				70AC29F3200BAE7C00678AE4 /* .travis.yml in Resources */,
 				A051DE74E30D02CDB87E565F /* .gitignore in Resources */,
 				A051D540ED9F283A7770117E /* words.plist in Resources */,
-				A051DA921727ED50C76B8D93 /* testdata.plist in Resources */,
+				A051D4553B2344DDCBCC947B /* names.plist in Resources */,
+				A051D3E9DB8FD8175734073A /* address.plist in Resources */,
+				A051D28473DC607FF6F59384 /* company.plist in Resources */,
+				A051DDD662A81BBDF911AC44 /* internet.plist in Resources */,
+				A051D7476C15F1B5FA0D3587 /* user_agent.plist in Resources */,
+				A051DE02C03D687E5721E42C /* finance.plist in Resources */,
+				A051D10235B8A049F027701E /* personal_data.plist in Resources */,
+				A051D141667760E9F63D1608 /* file.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,7 +418,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				70A359421FFCC088007D3251 /* words.plist in Resources */,
-				A051DA3FBD58B283DA3AA7D1 /* testdata.plist in Resources */,
+				A051D1807674C0986E0300E1 /* names.plist in Resources */,
+				A051DF96ABB986EDE1553B48 /* address.plist in Resources */,
+				A051D0FC7D5E57DEE29F2ECC /* company.plist in Resources */,
+				A051D14185F0F82FA384FA0A /* internet.plist in Resources */,
+				A051DD57F5BC0BA4838B35F7 /* user_agent.plist in Resources */,
+				A051D806E3E63D43F100DB0D /* finance.plist in Resources */,
+				A051D5535E3CB7DD23DE8C56 /* personal_data.plist in Resources */,
+				A051D44BC90E020EC942618E /* file.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,12 +528,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				A051D46044445897496D4271 /* StringExtension.swift in Sources */,
-				70283E441FFD87F100237AE8 /* TestDataKeeper.swift in Sources */,
 				706D55122000122E00324593 /* BooleanExtension.swift in Sources */,
-				A051D7C684F8003B2AC7EC84 /* PlistReader.swift in Sources */,
+				A051D7C684F8003B2AC7EC84 /* ResourcesPlistDecoder.swift in Sources */,
 				A051D8569BF707AD5BD02E97 /* ArrayExtension.swift in Sources */,
 				A051D7069D13B9BBA877ED22 /* ArraySlice.swift in Sources */,
 				A051D4E97C8D2F460B2DA4E6 /* NumbersExtensions.swift in Sources */,
+				A051DB5D68D5917ED145CECF /* RandomContactInformation.swift in Sources */,
+				A051D06606D69E9557E78DA3 /* Names.swift in Sources */,
+				A051DF70968BDF4A779606D8 /* NonExisting.swift in Sources */,
+				A051D3F96A46732E10CD46C6 /* Words.swift in Sources */,
+				A051D23E348AFB5D8A0C60D6 /* Address.swift in Sources */,
+				A051D52294467C637720A1E6 /* Company.swift in Sources */,
+				A051DB802C375889756E505E /* Internet.swift in Sources */,
+				A051DAE9D0B02636A4F8FD6D /* UserAgent.swift in Sources */,
+				A051DF7CB03038C404E79AF8 /* Finance.swift in Sources */,
+				A051D993A5FC3F275C53858B /* PersonalData.swift in Sources */,
+				A051DF8EF7E0673B607E64CC /* File.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,8 +551,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				70283E451FFD87F100237AE8 /* TestDataKeeper.swift in Sources */,
-				A051D38B52140EB898B807CB /* PlistReader.swift in Sources */,
+				A051D38B52140EB898B807CB /* ResourcesPlistDecoder.swift in Sources */,
 				A051DF628D99114D1AE17600 /* ArrayExtension.swift in Sources */,
 				A051D7D6039FA0494DC37614 /* ArraySlice.swift in Sources */,
 				A051DD003D1A4B680730010D /* PlistReaderTests.swift in Sources */,
@@ -444,6 +562,18 @@
 				A051D2757F6D82B6F7960CE3 /* BooleanExtension.swift in Sources */,
 				A051D2AD26DEEF5C39A99614 /* BooleanExtensionTests.swift in Sources */,
 				A051DE390298D72D37B8BFF1 /* NumbersExtensions.swift in Sources */,
+				A051D8019E8E1E80D5887F09 /* RandomContactInformation.swift in Sources */,
+				70A6DC7E20725287003F87BF /* ContactGeneratorTests.swift in Sources */,
+				A051D3751259ECE544B08FCB /* Names.swift in Sources */,
+				A051D5D4977E89B6E5CE7FD5 /* NonExisting.swift in Sources */,
+				A051D70CE99E8A1916E3A009 /* Words.swift in Sources */,
+				A051DC40E54124C8DF2BB169 /* Address.swift in Sources */,
+				A051D7E756F04EAABE20338C /* Company.swift in Sources */,
+				A051D23651CF14E282CE7650 /* Internet.swift in Sources */,
+				A051D0D89374E6893B9F2D44 /* UserAgent.swift in Sources */,
+				A051D87536C93CAF522AE710 /* Finance.swift in Sources */,
+				A051D340377A593DDE3B3129 /* PersonalData.swift in Sources */,
+				A051D6C60CE0C8F0CB17FBB8 /* File.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -491,6 +621,7 @@
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -551,6 +682,7 @@
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -621,6 +753,7 @@
 			baseConfigurationReference = D7B9E00996DC94C054C34B1B /* Pods-ifakerTests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 3B33JALMDB;
 				INFOPLIST_FILE = ifakerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -636,6 +769,7 @@
 			baseConfigurationReference = 62AF14D699650CAF3B06BFAB /* Pods-ifakerTests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 3B33JALMDB;
 				INFOPLIST_FILE = ifakerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";

@@ -51,5 +51,53 @@
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ifakerTests/Extensions/ArrayExtensionTests.swift"
+            timestampString = "544363196.457309"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "11"
+            endingLineNumber = "11"
+            landmarkName = "spec()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in closure #1 () -&gt; () in closure #1 () -&gt; () in ifakerTests.ArrayExtensionTests.spec() -&gt; ()"
+                  moduleName = "ifakerTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/andrewzakordonets/Work/Github/ifaker/ifakerTests/Extensions/ArrayExtensionTests.swift"
+                  timestampString = "544363198.130174"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "56">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Int) -&gt; Swift.Int in closure #1 () -&gt; () in closure #1 () -&gt; () in closure #1 () -&gt; () in ifakerTests.ArrayExtensionTests.spec() -&gt; ()"
+                  moduleName = "ifakerTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/andrewzakordonets/Work/Github/ifaker/ifakerTests/Extensions/ArrayExtensionTests.swift"
+                  timestampString = "544363198.132522"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "12">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>

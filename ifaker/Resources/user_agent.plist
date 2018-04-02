@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>browser</key>
+        <array>
+            <string>chrome</string>
+            <string>firefox</string>
+            <string>internet_explorer</string>
+            <string>opera</string>
+            <string>safari</string>
+        </array>
+        <key>windows</key>
+        <array>
+            <string>Windows 95</string>
+            <string>Windows 98</string>
+            <string>Windows 98; Win 9x 4.90</string>
+            <string>Windows CE</string>
+            <string>Windows NT 4.0</string>
+            <string>Windows NT 5.0</string>
+            <string>Windows NT 5.01</string>
+            <string>Windows NT 5.1</string>
+            <string>Windows NT 5.2</string>
+            <string>Windows NT 6.0</string>
+            <string>Windows NT 6.1</string>
+            <string>Windows NT 6.2</string>
+        </array>
+        <key>linux_processor</key>
+        <array>
+            <string>i686</string>
+            <string>x86_64</string>
+        </array>
+        <key>mac_processor</key>
+        <array>
+            <string>Intel</string>
+            <string>PPC</string>
+            <string>U; Intel</string>
+            <string>U; PPC</string>
+        </array>
+        <key>langs</key>
+        <array>
+            <string>en-US</string>
+            <string>sl-SI</string>
+            <string>it-IT</string>
+        </array>
+    </dict>
+</plist>

@@ -71,7 +71,7 @@ public class BadInstructionException: NSException {
 				return NSNumber(value: KERN_INVALID_ARGUMENT)
 			}
 			
-			// 3. Set the Instruction Pointer to the new function's address
+			// 3. Set the Instruction Pointer to the new function's address.plist
 			var f: @convention(c) () -> Void = raiseBadInstructionException
 			withUnsafePointer(to: &f) {
 				state.__rip = $0.withMemoryRebound(to: __uint64_t.self, capacity: 1) { return $0.pointee }

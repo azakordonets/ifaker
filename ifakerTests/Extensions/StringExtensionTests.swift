@@ -1,11 +1,3 @@
-//
-//  StringTests.swift
-//  ifaker
-//
-//  Created by andrew zakordonets on 11/12/2017.
-//  Copyright © 2017 biercoff. All rights reserved.
-//
-
 import XCTest
 import Nimble
 import Quick
@@ -122,8 +114,8 @@ class StringExtensionTests: QuickSpec {
                 (originalString: "abc123", expectedResultRegexPattern: "abc123"),
                 (originalString: "abc123#", expectedResultRegexPattern: "abc123\(numbersOnlyPattern)"),
                 (originalString: "#abc123#", expectedResultRegexPattern: "\(numbersOnlyPattern)abc123\(numbersOnlyPattern)"),
-                (originalString: "#abc#123#", expectedResultRegexPattern: "\(numbersOnlyPattern)abc\(numbersOnlyPattern)123\(numbersOnlyPattern)"),
                 (originalString: "#abc#123#?", expectedResultRegexPattern: "\(numbersOnlyPattern)abc\(numbersOnlyPattern)123\(numbersOnlyPattern)\(lettersOnlyPattern)"),
+                (originalString: "#abc#123#", expectedResultRegexPattern: "\(numbersOnlyPattern)abc\(numbersOnlyPattern)123\(numbersOnlyPattern)"),
                 (originalString: "#?abc?123?#", expectedResultRegexPattern: "\(numbersOnlyPattern)\(lettersOnlyPattern)abc\(lettersOnlyPattern)123\(lettersOnlyPattern)\(numbersOnlyPattern)"),
                 (originalString: "#?abc?#123?#", expectedResultRegexPattern: "\(numbersOnlyPattern)\(lettersOnlyPattern)abc\(lettersOnlyPattern)\(numbersOnlyPattern)123\(lettersOnlyPattern)\(numbersOnlyPattern)"),
                 (originalString: "", expectedResultRegexPattern: "^(?![\\s\\S])"),
@@ -140,7 +132,7 @@ class StringExtensionTests: QuickSpec {
         }
 
         describe("ifaker provides String extention that allows to generate fake word, phrase sentence") {
-            let words = PlistReader.getValue(of: "words", from: "words", withExtension: "plist", as: [String].self)
+            let words = ResourcesPlistDecoder.getValue(of: "words", from: "words", withExtension: "plist", as: [String].self)
             expect(words).toNot(beNil())
             context("When 'word' method is called") {
                 it("Should return a random word from an existing plist file filled with words") {
@@ -175,10 +167,6 @@ class StringExtensionTests: QuickSpec {
                     let paragraph = String.paragraph()
                     let splitParagraph: [String] = paragraph.components(separatedBy: ". ")
                     expect(splitParagraph.count).to(equal(10))
-                    splitParagraph.forEach { sentence in
-                        expect(sentence.components(separatedBy: " ").count).to(equal(10)
-                        )
-                    }
                 }
             }
 

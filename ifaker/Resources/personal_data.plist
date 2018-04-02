@@ -1,0 +1,1013 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>religion</key>
+	<array>
+		<string>christianity</string>
+		<string>islam</string>
+		<string>hinduism</string>
+		<string>buddhism</string>
+		<string>sikhism</string>
+		<string>judaism</string>
+		<string>Baha’i Faith</string>
+		<string>Confucianism</string>
+		<string>Jainism</string>
+		<string>Shinto</string>
+	</array>
+	<key>zodiac</key>
+	<array>
+		<string>Aries</string>
+		<string>Taurus</string>
+		<string>Gemini</string>
+		<string>Cancer</string>
+		<string>Leo</string>
+		<string>Virgo</string>
+		<string>Libra</string>
+		<string>Scorpio</string>
+		<string>Sagittarius</string>
+		<string>Capricorn</string>
+		<string>Aquarius</string>
+		<string>Pisces</string>
+	</array>
+	<key>bloodType</key>
+	<array>
+		<string>O+</string>
+		<string>O-</string>
+		<string>A+</string>
+		<string>A-</string>
+		<string>B+</string>
+		<string>B-</string>
+		<string>AB+</string>
+		<string>AB-</string>
+	</array>
+	<key>occupation</key>
+	<array>
+		<string>Able Seamen</string>
+		<string>Account Collector</string>
+		<string>Accounting Specialist</string>
+		<string>Adjustment Clerk</string>
+		<string>Administrative Assistant</string>
+		<string>Administrative Law Judge</string>
+		<string>Administrative Service Manager</string>
+		<string>Admiralty Lawyer</string>
+		<string>Adult Literacy and Remedial Education Teachers</string>
+		<string>Advertising Account Executive</string>
+		<string>Advertising Agency Coordinator</string>
+		<string>Aeronautical &amp; Aerospace Engineer</string>
+		<string>Aerospace Engineering Technician</string>
+		<string>Agricultural Crop Farm Manager</string>
+		<string>Agricultural Engineer</string>
+		<string>Agricultural Equipment Operator</string>
+		<string>Agricultural Inspector</string>
+		<string>Agricultural Product Sorter</string>
+		<string>Agricultural Sciences Professor</string>
+		<string>Agricultural Technician</string>
+		<string>Air Crew Member</string>
+		<string>Air Crew Officer</string>
+		<string>Air Traffic Controller</string>
+		<string>Aircraft Assembler</string>
+		<string>Aircraft Body and Bonded Structure Repairer</string>
+		<string>Aircraft Cargo Handling Supervisor</string>
+		<string>Aircraft Examiner</string>
+		<string>Aircraft Launch and Recovery Officer</string>
+		<string>Aircraft Launch and Recovery Specialist</string>
+		<string>Aircraft Mechanic</string>
+		<string>Airfield Operations Specialist</string>
+		<string>Airline Flight Attendant</string>
+		<string>Airline Flight Control Administrator</string>
+		<string>Airline Flight Operations Administrator</string>
+		<string>Airline Flight Reservations Administrator</string>
+		<string>Airport Administrator</string>
+		<string>Airport Design Engineer</string>
+		<string>Alcohol &amp; Drug Abuse Assistance Coordinator</string>
+		<string>Alumni Relations Coordinator</string>
+		<string>Ambulance Drivers</string>
+		<string>Amusement Park &amp; Recreation Attendants</string>
+		<string>Anesthesiologist (MD)</string>
+		<string>Animal Breeder</string>
+		<string>Animal Control Worker</string>
+		<string>Animal Husbandry Worker Supervisor</string>
+		<string>Animal Keepers and Groomers</string>
+		<string>Animal Kennel Supervisor</string>
+		<string>Animal Scientist</string>
+		<string>Animal Trainer</string>
+		<string>Animation Cartoonist</string>
+		<string>Answering Service Operator</string>
+		<string>Anthropology and Archeology Professor</string>
+		<string>Anti-Terrorism Intelligence Agent</string>
+		<string>Appeals Referee</string>
+		<string>Aquaculturist (Fish Farmer)</string>
+		<string>Aquarium Curator</string>
+		<string>Architecture Professor</string>
+		<string>Area, Ethnic, and Cultural Studies Professor</string>
+		<string>Armored Assault Vehicle Crew Member</string>
+		<string>Armored Assault Vehicle Officer</string>
+		<string>Art Appraiser</string>
+		<string>Art Director</string>
+		<string>Art Restorer</string>
+		<string>Art Therapist</string>
+		<string>Art, Drama, and Music Professor</string>
+		<string>Artillery and Missile Crew Member</string>
+		<string>Artillery and Missile Officer</string>
+		<string>Artists Agent (Manager)</string>
+		<string>Athletes&apos; Business Manager</string>
+		<string>Athletic Coach</string>
+		<string>Athletic Director</string>
+		<string>Athletic Trainer</string>
+		<string>ATM Machine Servicer</string>
+		<string>Atmospheric and Space Scientist</string>
+		<string>Audio-Visual Collections Specialist</string>
+		<string>Audiovisual Production Specialist</string>
+		<string>Automobile Mechanic</string>
+		<string>Automotive Body Repairer</string>
+		<string>Automotive Engineer</string>
+		<string>Automotive Glass Installer</string>
+		<string>Avionics Technician</string>
+		<string>Baggage Porters and Bellhops</string>
+		<string>Baker (Commercial)</string>
+		<string>Ballistics Expert</string>
+		<string>Bank and Branch Managers</string>
+		<string>Bank Examiner</string>
+		<string>Bank Teller</string>
+		<string>Benefits Manager</string>
+		<string>Bicycle Mechanic</string>
+		<string>Billing Specialist</string>
+		<string>Bindery Machine Set-Up Operators</string>
+		<string>Bindery Machine Tender</string>
+		<string>Biological Technician</string>
+		<string>Biology Professor</string>
+		<string>Biomedical Engineer</string>
+		<string>Biomedical Equipment Technician</string>
+		<string>Boat Builder</string>
+		<string>Book Editor</string>
+		<string>Border Patrol Agent</string>
+		<string>Brattice Builder</string>
+		<string>Bridge and Lock Tenders</string>
+		<string>Broadcast News Analyst</string>
+		<string>Broadcast Technician</string>
+		<string>Broker&apos;s Floor Representative</string>
+		<string>Brokerage Clerk</string>
+		<string>Budget Accountant</string>
+		<string>Budget Analyst</string>
+		<string>Building Inspector</string>
+		<string>Building Maintenance Mechanic</string>
+		<string>Bulldozer / Grader Operator</string>
+		<string>Bus and Truck Mechanics</string>
+		<string>Bus Boy / Bus Girl</string>
+		<string>Bus Driver (School)</string>
+		<string>Bus Driver (Transit)</string>
+		<string>Business Professor</string>
+		<string>Business Service Specialist</string>
+		<string>Cabinet Maker</string>
+		<string>Camp Director</string>
+		<string>Caption Writer</string>
+		<string>Cardiologist (MD)</string>
+		<string>Cardiopulmonary Technologist</string>
+		<string>Career Counselor</string>
+		<string>Cargo and Freight Agents</string>
+		<string>Carpenter&apos;s Assistant</string>
+		<string>Carpet Installer</string>
+		<string>Cartographer (Map Scientist)</string>
+		<string>Cartographic Technician</string>
+		<string>Cartoonist (Publications)</string>
+		<string>Casino Cage Worker</string>
+		<string>Casino Cashier</string>
+		<string>Casino Dealer</string>
+		<string>Casino Floor Person</string>
+		<string>Casino Manager</string>
+		<string>Casino Pit Boss</string>
+		<string>Casino Slot Machine Mechanic</string>
+		<string>Casino Surveillance Officer</string>
+		<string>Casting Director</string>
+		<string>Catering Administrator</string>
+		<string>Ceiling Tile Installer</string>
+		<string>Cement Mason</string>
+		<string>Ceramic Engineer</string>
+		<string>Certified Public Accountant (CPA)</string>
+		<string>Chaplain (Prison, Military, Hospital)</string>
+		<string>Chemical Engineer</string>
+		<string>Chemical Equipment Operator</string>
+		<string>Chemical Plant Operator</string>
+		<string>Chemical Technicians</string>
+		<string>Chemistry Professor</string>
+		<string>Chief Financial Officer</string>
+		<string>Child Care Center Administrator</string>
+		<string>Child Care Worker</string>
+		<string>Child Life Specialist</string>
+		<string>Child Support Investigator</string>
+		<string>Child Support Services Worker</string>
+		<string>City Planning Aide</string>
+		<string>Civil Drafter</string>
+		<string>Civil Engineer</string>
+		<string>Civil Engineering Technician</string>
+		<string>Clergy Member (Religious Leader)</string>
+		<string>Clinical Dietitian</string>
+		<string>Clinical Psychologist</string>
+		<string>Clinical Sociologist</string>
+		<string>Coatroom and Dressing Room Attendants</string>
+		<string>College/University Professor</string>
+		<string>Commercial Designer</string>
+		<string>Commercial Diver</string>
+		<string>Commercial Fisherman</string>
+		<string>Communication Equipment Mechanic</string>
+		<string>Communications Professor</string>
+		<string>Community Health Nurse</string>
+		<string>Community Organization Worker</string>
+		<string>Community Welfare Worker</string>
+		<string>Compensation Administrator</string>
+		<string>Compensation Specialist</string>
+		<string>Compliance Officer</string>
+		<string>Computer Aided Design (CAD) Technician</string>
+		<string>Computer and Information Scientists, Research</string>
+		<string>Computer and Information Systems Managers</string>
+		<string>Computer Applications Engineer</string>
+		<string>Computer Controlled Machine Tool Operators</string>
+		<string>Computer Customer Support Specialist</string>
+		<string>Computer Hardware Technician</string>
+		<string>Computer Operators</string>
+		<string>Computer Programmer</string>
+		<string>Computer Science Professor</string>
+		<string>Computer Security Specialist</string>
+		<string>Computer Software Engineers</string>
+		<string>Computer Software Technician</string>
+		<string>Computer Systems Engineer</string>
+		<string>Congressional Aide</string>
+		<string>Conservation Scientist</string>
+		<string>Construction Driller</string>
+		<string>Construction Laborer</string>
+		<string>Construction Manager</string>
+		<string>Construction Trades Supervisor</string>
+		<string>Contract Administrator</string>
+		<string>Contract Specialist</string>
+		<string>Control Center Specialist (Military)</string>
+		<string>Controller (Finance)</string>
+		<string>Cook (Cafeteria)</string>
+		<string>Cook (Fast Food)</string>
+		<string>Cook (Private Household)</string>
+		<string>Cook (Restaurant)</string>
+		<string>Cook (Short Order)</string>
+		<string>Copy Writer</string>
+		<string>Corporation Lawyer</string>
+		<string>Correction Officer</string>
+		<string>Correspondence Clerk</string>
+		<string>Cosmetologist (Hair Stylist)</string>
+		<string>Cost Accountant</string>
+		<string>Cost Analysis Engineer</string>
+		<string>Cost Estimator</string>
+		<string>Costume Attendant</string>
+		<string>Counseling Psychologist</string>
+		<string>Counter and Rental Clerks</string>
+		<string>County or City Auditor</string>
+		<string>Couriers and Messengers</string>
+		<string>Court Administrator</string>
+		<string>Court Clerk</string>
+		<string>Court Reporter</string>
+		<string>Craft Artist</string>
+		<string>Crane Operator</string>
+		<string>Credit Adjuster</string>
+		<string>Credit Analyst</string>
+		<string>Credit Reporter</string>
+		<string>Criminal Investigator (Detective)</string>
+		<string>Criminal Justice Professor</string>
+		<string>Criminal Lawyer</string>
+		<string>Crop Workers Supervisor</string>
+		<string>Crossing Guard</string>
+		<string>Custom Tailor</string>
+		<string>Customer Service Representative (Utilities)</string>
+		<string>Customer Service Supervisor</string>
+		<string>Customs Inspector</string>
+		<string>Cutting Machine Operators</string>
+		<string>Dairy Technologist</string>
+		<string>Database Administrator</string>
+		<string>Deaf Students Teacher</string>
+		<string>Delivery Driver</string>
+		<string>Demonstrators and Product Promoters</string>
+		<string>Dental / Orthodontic Office Administrator</string>
+		<string>Dental Assistant</string>
+		<string>Dental Hygienist</string>
+		<string>Dental Laboratory Technician</string>
+		<string>Dentist (MD)</string>
+		<string>Dermatologist (MD)</string>
+		<string>Desktop Publishing Specialist</string>
+		<string>Developmental Psychologist</string>
+		<string>Die Cutter Operator</string>
+		<string>Dietetic Technician</string>
+		<string>Dietitian and Nutritionist</string>
+		<string>Directory Assistance Operator</string>
+		<string>Disabled Students Teacher</string>
+		<string>Disk Jockey</string>
+		<string>Dispatcher (Safety Vehicles)</string>
+		<string>Door To Door Salesmen</string>
+		<string>Dry Wall Installer</string>
+		<string>Economics Professor</string>
+		<string>Editorial Writer, Newspapers &amp; Magazines</string>
+		<string>Education and Training Administrator</string>
+		<string>Education Professor</string>
+		<string>Educational Administrator</string>
+		<string>Educational Psychologist</string>
+		<string>Educational Resource Coordinator</string>
+		<string>Educational Therapist</string>
+		<string>EEG Technician/Technologist</string>
+		<string>Electric Meter Installer</string>
+		<string>Electric Motor Mechanic</string>
+		<string>Electrical and Electronic Inspector</string>
+		<string>Electrical Drafter</string>
+		<string>Electrical Engineers</string>
+		<string>Electrical Parts Reconditioner</string>
+		<string>Electrical Technician</string>
+		<string>Electro-Mechanical Technicians</string>
+		<string>Electromechanical Equipment Assembler</string>
+		<string>Electronic Drafter</string>
+		<string>Electronics Engineer</string>
+		<string>Electronics Technician</string>
+		<string>Elementary School Administrator</string>
+		<string>Elementary School Teacher</string>
+		<string>Elevator Mechanic</string>
+		<string>Emergency Management Specialist</string>
+		<string>Emergency Medical Technician</string>
+		<string>Employee Benefits Analyst</string>
+		<string>Employee Training Instructor</string>
+		<string>Employment Administrator</string>
+		<string>Employment and Placement Specialist</string>
+		<string>Employment Interviewer</string>
+		<string>Engine and Machine Assemblers</string>
+		<string>Engineering Managers</string>
+		<string>Engineering Professor</string>
+		<string>English Language and Literature Professor</string>
+		<string>Environmental Compliance Inspector</string>
+		<string>Environmental Disease Analyst</string>
+		<string>Environmental Engineer</string>
+		<string>Environmental Planner</string>
+		<string>Environmental Research Analyst</string>
+		<string>Environmental Science Technician</string>
+		<string>Environmental Science Professsor</string>
+		<string>Environmental Technician</string>
+		<string>Equal Opportunity Representative</string>
+		<string>Etchers and Engravers</string>
+		<string>Excavating Machine Operator</string>
+		<string>Excavating Supervisor</string>
+		<string>Executive Secretary</string>
+		<string>Exercise Physiologist</string>
+		<string>Exhibit Artist</string>
+		<string>Exhibit Designer</string>
+		<string>Experimental Psychologist</string>
+		<string>Explosives Worker</string>
+		<string>Export Agent</string>
+		<string>Fabric and Apparel Patternmakers</string>
+		<string>Facilities Planner</string>
+		<string>Factory Layout Engineer</string>
+		<string>Family Caseworker</string>
+		<string>Family Practitioner (MD)</string>
+		<string>Farm Equipment Mechanic</string>
+		<string>Farm Hand</string>
+		<string>Farm Labor Contractor</string>
+		<string>Farm Manager</string>
+		<string>Farm Products Purchasing Agent</string>
+		<string>Farmers and Ranchers</string>
+		<string>Fashion Artist</string>
+		<string>Fashion Coordinator</string>
+		<string>Fashion Designer</string>
+		<string>Fashion Model</string>
+		<string>Fence Installer</string>
+		<string>Field Contractor</string>
+		<string>Field Health Officer</string>
+		<string>File Clerk</string>
+		<string>Film Editor</string>
+		<string>Film Laboratory Technician</string>
+		<string>Finance Manager</string>
+		<string>Financial Aid Counselor</string>
+		<string>Financial Analyst</string>
+		<string>Financial Examiner</string>
+		<string>Financial Planner</string>
+		<string>Financial Services Sales Agent</string>
+		<string>Fine Artist</string>
+		<string>Fire Inspector</string>
+		<string>Fire Investigator</string>
+		<string>Fire Prevention Engineer</string>
+		<string>Fire Protection Engineer</string>
+		<string>Fire Protection Engineering Technician</string>
+		<string>Fish &amp; Game Warden</string>
+		<string>Fish Hatchery Specialist</string>
+		<string>Fishery Worker Supervisor</string>
+		<string>Fitness Trainer</string>
+		<string>Flight Engineers</string>
+		<string>Floral Designer</string>
+		<string>Food &amp; Drug Inspector</string>
+		<string>Food Batchmaker</string>
+		<string>Food Preparation Worker</string>
+		<string>Food Science Technicians</string>
+		<string>Food Technologist</string>
+		<string>Foreign Exchange Trader</string>
+		<string>Foreign Language Interpreter</string>
+		<string>Foreign Language Teacher</string>
+		<string>Foreign Language Translator</string>
+		<string>Foreign Service Officer</string>
+		<string>Foreign Service Peacekeeping Specialist</string>
+		<string>Foreign Student Adviser</string>
+		<string>Forensic Science Technicians</string>
+		<string>Forensics Psychologist</string>
+		<string>Forest and Conservation Technician</string>
+		<string>Forest Engineer</string>
+		<string>Forest Fire Prevention Supervisor</string>
+		<string>Forest Fire Inspector</string>
+		<string>Forestry and Conservation Professor</string>
+		<string>Forging Machine Operator</string>
+		<string>Forklift and Industrial Truck Operators</string>
+		<string>Fraud Investigator</string>
+		<string>Freight and Stock Handler</string>
+		<string>Fund Raiser</string>
+		<string>Funds Development Administrator</string>
+		<string>Funeral Attendant</string>
+		<string>Funeral Director</string>
+		<string>Furniture Designer</string>
+		<string>Furniture Finishers</string>
+		<string>Game Runner</string>
+		<string>Gas Plant Operator</string>
+		<string>General and Operations Managers</string>
+		<string>General Farmworkers</string>
+		<string>General Internists (MD)</string>
+		<string>Geography Professor</string>
+		<string>Geological Data Technicians</string>
+		<string>Geological Technician (Drafter)</string>
+		<string>Glass Blower</string>
+		<string>Gluing Machine Operators</string>
+		<string>Golf Course Superintendent</string>
+		<string>Government Budget Analyst</string>
+		<string>Government Property Inspectors</string>
+		<string>Government Service Executives</string>
+		<string>Graduate Teaching Assistant</string>
+		<string>Graphic Designer</string>
+		<string>Greenhouse and Nursery Manager</string>
+		<string>Gynecologist (MD)</string>
+		<string>Hand and Portable Tool Mechanic</string>
+		<string>Hand Sewer</string>
+		<string>Harbor Master</string>
+		<string>Harbor, Lake &amp; Waterways Police</string>
+		<string>Hardwood Floor Finisher</string>
+		<string>Hazardous Materials Removal Worker</string>
+		<string>Hazardous Waste Management Analyst</string>
+		<string>Health Care Facilities Inspector</string>
+		<string>Health Case Manager</string>
+		<string>Health Educators</string>
+		<string>Health Psychologist</string>
+		<string>Hearing Officer</string>
+		<string>Heating, A/C, Refrigeration Technician</string>
+		<string>Heavy Equipment Mechanic</string>
+		<string>High School Administrator</string>
+		<string>High School Guidance Counselor</string>
+		<string>High School Teacher</string>
+		<string>Highway Maintenance Worker</string>
+		<string>Highway Patrol Pilot</string>
+		<string>Historic Site Administrator</string>
+		<string>Historical Archivist</string>
+		<string>History Professor</string>
+		<string>Home Appliance Installer</string>
+		<string>Home Appliance Repairer</string>
+		<string>Home Economics Teacher</string>
+		<string>Home Economist</string>
+		<string>Home Entertainment System Installer</string>
+		<string>Home Health Aide</string>
+		<string>Home Health Technician</string>
+		<string>Horticultural Worker Supervisor</string>
+		<string>Horticulture Therapist</string>
+		<string>Horticulturist (Vineyard)</string>
+		<string>Hospital Administrator</string>
+		<string>Hospital Nurse</string>
+		<string>Hosts and Hostesses</string>
+		<string>Hotel and Motel Desk Clerks</string>
+		<string>Hotel Convention/Events Coordinator</string>
+		<string>Hotel Manager</string>
+		<string>Housekeeping Supervisors</string>
+		<string>Human Factors Psychologist</string>
+		<string>Human Resources Management Advisor</string>
+		<string>Human Resources Management Consultant</string>
+		<string>Hydraulic Engineer</string>
+		<string>Immigration Inspector</string>
+		<string>Industrial Air Pollution Analyst</string>
+		<string>Industrial Arts Teacher</string>
+		<string>Industrial Designer</string>
+		<string>Industrial Engineer</string>
+		<string>Industrial Engineering Technician</string>
+		<string>Industrial Health Engineer</string>
+		<string>Industrial Hygienist</string>
+		<string>Industrial Machinery Mechanics</string>
+		<string>Industrial Relations Analyst</string>
+		<string>Industrial Relations Specialist</string>
+		<string>Industrial Therapist</string>
+		<string>Industrial Waste Inspector</string>
+		<string>Industrial-Organizational Psychologist</string>
+		<string>Infantry Officers</string>
+		<string>Instructional Coordinators</string>
+		<string>Instructor, Police-Canine Services</string>
+		<string>Instrument Technician</string>
+		<string>Insulation Installer</string>
+		<string>Insurance Adjuster</string>
+		<string>Insurance Agent</string>
+		<string>Insurance Appraiser (Auto Damage)</string>
+		<string>Insurance Claim Examiner</string>
+		<string>Insurance Claims Adjuster</string>
+		<string>Insurance Claims Clerks</string>
+		<string>Insurance Estate Planner</string>
+		<string>Insurance Lawyer</string>
+		<string>Insurance Policy Processing Clerk</string>
+		<string>Insurance Underwriter</string>
+		<string>Intelligence Specialist (Government)</string>
+		<string>Interior Designer</string>
+		<string>Internal Auditor</string>
+		<string>Interpreter for the Hearing Impaired</string>
+		<string>Irradiated-Fuel Handlers</string>
+		<string>Irrigation Engineer</string>
+		<string>IT Administrator (Information Technology)</string>
+		<string>Janitorial Supervisors</string>
+		<string>Job Analyst</string>
+		<string>Job Development Specialist</string>
+		<string>Job Printer (Graphic Arts)</string>
+		<string>Kindergarten Teacher</string>
+		<string>Labor Relations Advisor</string>
+		<string>Laboratory Tester Land Surveyor</string>
+		<string>Landscape Architect</string>
+		<string>Landscape Contractor</string>
+		<string>Lathe Operator</string>
+		<string>Law Clerks</string>
+		<string>Law Professor</string>
+		<string>Legal Assistant</string>
+		<string>Legal Secretary</string>
+		<string>Legislative Assistant</string>
+		<string>Library Assistant</string>
+		<string>Library Consultant</string>
+		<string>Library Science Professor</string>
+		<string>Library Technician</string>
+		<string>License Clerk</string>
+		<string>Licensed Practical Nurse (LPN)</string>
+		<string>Livestock Commission Agent</string>
+		<string>Loan Counselor</string>
+		<string>Loan Interviewers and Clerks</string>
+		<string>Loan Officer</string>
+		<string>Locomotive Engineers</string>
+		<string>Log Graders and Scalers</string>
+		<string>Logging Tractor Operator</string>
+		<string>Logging Worker Supervisor</string>
+		<string>Machine Feeders and Offbearers</string>
+		<string>Mail Clerk</string>
+		<string>Mail Machine Operators</string>
+		<string>Maintenance Supervisor</string>
+		<string>Makeup Artists - Theatrical</string>
+		<string>Management Consultant (Analyst)</string>
+		<string>Manicurists and Pedicurists</string>
+		<string>Manual Arts Therapist</string>
+		<string>Mapping Technician</string>
+		<string>Marina Boat Charter Administrator</string>
+		<string>Marine and Aquatic Biologist</string>
+		<string>Marine Architect</string>
+		<string>Marine Cargo Surveyor</string>
+		<string>Marine Drafter</string>
+		<string>Marine Engineer</string>
+		<string>Marine Surveyor</string>
+		<string>Marine/Port Engineer</string>
+		<string>Market Research Analyst</string>
+		<string>Marketing Managers</string>
+		<string>Marking Clerk</string>
+		<string>Marriage and Family Therapists</string>
+		<string>Massage Therapist</string>
+		<string>Materials Engineer</string>
+		<string>Materials Inspector</string>
+		<string>Materials Scientist</string>
+		<string>Math Professor</string>
+		<string>Mathematical Technician</string>
+		<string>Meat Packers</string>
+		<string>Meat, Poultry, and Fish Trimmers</string>
+		<string>Mechanical Drafter</string>
+		<string>Mechanical Engineer</string>
+		<string>Mechanical Engineering Technician</string>
+		<string>Mechanical Inspector</string>
+		<string>Medical Administrative Assistant</string>
+		<string>Medical and Public Health Social Workers</string>
+		<string>Medical and Scientific Illustrator</string>
+		<string>Medical Appliance Technician</string>
+		<string>Medical Assistant</string>
+		<string>Medical Equipment Preparer</string>
+		<string>Medical Examiner/Coroner</string>
+		<string>Medical Insurance Claims Analyst</string>
+		<string>Medical Laboratory Technician</string>
+		<string>Medical Photographer</string>
+		<string>Medical Records Administrator</string>
+		<string>Medical Records Technician</string>
+		<string>Medical Secretary</string>
+		<string>Medical Technologist</string>
+		<string>Medical Transcriptionist</string>
+		<string>Mental Health Counselor</string>
+		<string>Mentally Retarded Students Teacher</string>
+		<string>Merchandise Displayer</string>
+		<string>Metal Casting Machine Operator</string>
+		<string>Metal Fabricator</string>
+		<string>Meter Mechanic</string>
+		<string>Middle School Administrator</string>
+		<string>Middle School Guidance Counselor</string>
+		<string>Middle School Teacher</string>
+		<string>Military Analyst</string>
+		<string>Military Officer</string>
+		<string>Military-Enlisted Personnel</string>
+		<string>Mill Worker</string>
+		<string>Mine Cutting Machine Operator</string>
+		<string>Mine Inspector</string>
+		<string>Mining Engineer</string>
+		<string>Mining Machine Operator</string>
+		<string>Mining Shovel Machine Operator</string>
+		<string>Missing Person Investigator</string>
+		<string>Missionary Worker (Foreign Country)</string>
+		<string>Model Maker</string>
+		<string>Model Makers, Metal and Plastic</string>
+		<string>Motion Picture Director</string>
+		<string>Motion Picture Projectionist</string>
+		<string>Motor Vehicle Inspector</string>
+		<string>Motorboat Mechanic</string>
+		<string>Motorcycle Mechanic</string>
+		<string>Municipal Fire Fighting Supervisor</string>
+		<string>Museum Curator</string>
+		<string>Museum Technicians and Conservators</string>
+		<string>Music Arrangers and Orchestrators</string>
+		<string>Music Director</string>
+		<string>Music Teacher</string>
+		<string>Music Therapist</string>
+		<string>Musical Instrument Tuner</string>
+		<string>Narcotics Investigator (Government)</string>
+		<string>New Accounts Clerk (Banking)</string>
+		<string>Newspaper Editor</string>
+		<string>Newspaper/Magazines Writer</string>
+		<string>Non-Retail Sales Supervisor</string>
+		<string>Nuclear Engineer</string>
+		<string>Nuclear Equipment Operation Technician</string>
+		<string>Nuclear Fuels Research Engineer</string>
+		<string>Nuclear Medicine Technologist</string>
+		<string>Nuclear Monitoring Technician</string>
+		<string>Nuclear Power Reactor Operator</string>
+		<string>Nuclear Technicians</string>
+		<string>Numerical Tool Programmer</string>
+		<string>Nurse Practitioner</string>
+		<string>Nurse&apos;s Aide</string>
+		<string>Nursery Workers</string>
+		<string>Nursing Professor</string>
+		<string>Obstetrician (MD)</string>
+		<string>Occupational Analyst</string>
+		<string>Occupational Physician (MD)</string>
+		<string>Occupational Safety &amp; Health Inspector</string>
+		<string>Occupational Therapist</string>
+		<string>Occupational Therapy Assistant</string>
+		<string>Oceanographic Assistant</string>
+		<string>Office Clerk</string>
+		<string>Office Machine Mechanic</string>
+		<string>Office Supervisor</string>
+		<string>Offset Press Operators</string>
+		<string>Operating Engineers</string>
+		<string>Operations Management Analyst</string>
+		<string>Ophthalmic Laboratory Technician</string>
+		<string>Ophthalmologist (MD)</string>
+		<string>Oral and Maxillofacial Surgeons</string>
+		<string>Order Clerk</string>
+		<string>Order Fillers, Wholesale and Retail Sales</string>
+		<string>Ordinary Seamen</string>
+		<string>Ornamental-Metalwork Designer</string>
+		<string>Orthodontic Assistant</string>
+		<string>Orthodontic Laboratory Technician</string>
+		<string>Orthodontist (MD)</string>
+		<string>Outdoor Education Teacher</string>
+		<string>Overhead Door Installer</string>
+		<string>Package Designer</string>
+		<string>Packaging Machine Operator</string>
+		<string>Packers and Packagers, Hand</string>
+		<string>Painter (Industrial)</string>
+		<string>Painters, Construction and Maintenance</string>
+		<string>Painters, Transportation Equipment</string>
+		<string>Park Naturalist</string>
+		<string>Parking Enforcement Officer</string>
+		<string>Parking Lot Attendant</string>
+		<string>Parole Officer</string>
+		<string>Parts Salesperson</string>
+		<string>Paste-Up Worker (Graphic Arts)</string>
+		<string>Patent Agent</string>
+		<string>Patent Lawyer</string>
+		<string>Pathologist (MD)</string>
+		<string>Payroll and Timekeeping Clerks</string>
+		<string>PBX Installer and Repairer</string>
+		<string>Peace Corps Worker (Volunteer)</string>
+		<string>Pediatric Dentist</string>
+		<string>Pediatrician (MD)</string>
+		<string>Personal Service Supervisor</string>
+		<string>Personnel Administrator</string>
+		<string>Personnel Assistant</string>
+		<string>Personnel Recruiter</string>
+		<string>Pest Control Workers</string>
+		<string>Pesticide Handlers</string>
+		<string>Petroleum Engineer</string>
+		<string>Petroleum Geologist</string>
+		<string>Petroleum Laboratory Assistant</string>
+		<string>Petroleum Refinery Operator</string>
+		<string>Petroleum Technician</string>
+		<string>Pharmacy Aides</string>
+		<string>Pharmacy Technician</string>
+		<string>Philosophy and Religion Professor</string>
+		<string>Photo-Optics Technician</string>
+		<string>Photoengravers (Graphic Arts)</string>
+		<string>Photogrammetric Engineer</string>
+		<string>Photographic Equipment Mechanic</string>
+		<string>Photographic Process Workers</string>
+		<string>Physical Education Instructor</string>
+		<string>Physical Therapist</string>
+		<string>Physical Therapist Aides</string>
+		<string>Physical Therapy Assistant</string>
+		<string>Physician&apos;s Assistant (PA)</string>
+		<string>Physician&apos;s Office Nurse</string>
+		<string>Physics Professor</string>
+		<string>Pilot (Commercial Airlines)</string>
+		<string>Plant Breeder</string>
+		<string>Plant Manager (Manufacturing)</string>
+		<string>Plasterers and Stucco Masons</string>
+		<string>Plastic Surgeon</string>
+		<string>Platemakers (Graphic Arts)</string>
+		<string>Plumber (Plumbing Contractor)</string>
+		<string>Poets and Lyricists</string>
+		<string>Police and Detectives Supervisor</string>
+		<string>Police Artist</string>
+		<string>Police Identification and Records Officers</string>
+		<string>Police Officer</string>
+		<string>Political Science Professor</string>
+		<string>Political Scientist</string>
+		<string>Postal Service Clerks</string>
+		<string>Postal Service Mail Carriers</string>
+		<string>Postal Service Mail Sorter</string>
+		<string>Postmasters and Mail Superintendents</string>
+		<string>Power Plant Operators</string>
+		<string>Power-Line Installer and Mechanic</string>
+		<string>Precision Devices Inspectors and Testers</string>
+		<string>Preschool Administrator</string>
+		<string>Preschool Teacher</string>
+		<string>Pressing Machine Operator</string>
+		<string>Pressure Vessel Inspectors</string>
+		<string>Printing/Graphic Arts Reproduction Technician</string>
+		<string>Printmaker (Artist)</string>
+		<string>Private Detectives and Investigators</string>
+		<string>Private Nurse</string>
+		<string>Private Sector Executives</string>
+		<string>Probate Lawyer</string>
+		<string>Probation Officer</string>
+		<string>Procurement Clerks</string>
+		<string>Product Planner</string>
+		<string>Product Safety Engineer</string>
+		<string>Production Planner</string>
+		<string>Production, Planning, and Expediting Clerks</string>
+		<string>Professional Sports Scout</string>
+		<string>Proofreaders and Copy Markers</string>
+		<string>Property Accountant</string>
+		<string>Property Assessor</string>
+		<string>Property Managers</string>
+		<string>Props and Lighting Technicians</string>
+		<string>Prosthetic Technician</string>
+		<string>Psychiatric Aide</string>
+		<string>Psychiatric Technician</string>
+		<string>Psychiatrist (MD)</string>
+		<string>Psychology Professor</string>
+		<string>Public Health Service Officer</string>
+		<string>Public Relations Manager</string>
+		<string>Public Relations Specialist</string>
+		<string>Public Transportation Inspector</string>
+		<string>Publications Editor</string>
+		<string>Purchasing Agent</string>
+		<string>Purchasing Manager</string>
+		<string>Quality Control Coordinator</string>
+		<string>Quality Control Engineer</string>
+		<string>Quality Control Inspector</string>
+		<string>Quality Control Technician</string>
+		<string>Quarry Worker</string>
+		<string>Radar and Sonar Technicians</string>
+		<string>Radiation Protection Engineer</string>
+		<string>Radiation Therapists</string>
+		<string>Radio &amp; TV Announcer</string>
+		<string>Radio &amp; TV News Commentator</string>
+		<string>Radio &amp; TV Newscaster</string>
+		<string>Radio &amp; TV Producer</string>
+		<string>Radio &amp; TV Program Director</string>
+		<string>Radio &amp; TV Sports Announcer</string>
+		<string>Radio &amp; TV Station Administrator</string>
+		<string>Radio &amp; TV Talk Show Host</string>
+		<string>Radio Mechanics</string>
+		<string>Radio Operators</string>
+		<string>Radiologic Technicians</string>
+		<string>Radiologic Technologist</string>
+		<string>Radiologist (MD)</string>
+		<string>Rail Yard Engineers</string>
+		<string>Railroad Conductors and Yardmasters</string>
+		<string>Railroad Engineer</string>
+		<string>Railroad Inspector</string>
+		<string>Range Manager</string>
+		<string>Real Estate Appraiser</string>
+		<string>Real Estate Assessor</string>
+		<string>Real Estate Broker</string>
+		<string>Real Estate Lawyer</string>
+		<string>Real Estate Sales Agents</string>
+		<string>Recreation Leader</string>
+		<string>Recreational Protective Service Worker</string>
+		<string>Recreational Therapist</string>
+		<string>Recreational Vehicle Mechanic</string>
+		<string>Referee / Umpire</string>
+		<string>Refuse and Recyclable Material Collectors</string>
+		<string>Registrar Administrator</string>
+		<string>Reliability Engineer</string>
+		<string>Religious Institution Education Coordinator</string>
+		<string>Reservation Ticket Agent</string>
+		<string>Residence Counselor</string>
+		<string>Resource Recovery Engineer</string>
+		<string>Resource Teacher</string>
+		<string>Respiratory Care Technician</string>
+		<string>Respiratory Therapist</string>
+		<string>Respiratory Therapy Technicians</string>
+		<string>Restaurant Food Coordinator</string>
+		<string>Restaurant Manager</string>
+		<string>Retail Buyer</string>
+		<string>Retail Customer Service Representative</string>
+		<string>Retail Inventory Control Analyst</string>
+		<string>Retail Sales Department Supervisor</string>
+		<string>Retail Salespersons</string>
+		<string>Retail Store Manager</string>
+		<string>Revenue Agent (Government)</string>
+		<string>Safety Inspector</string>
+		<string>Sales Engineers</string>
+		<string>Sales Floor Stock Clerk</string>
+		<string>Sales Managers</string>
+		<string>Sales Promoter</string>
+		<string>Sales Representative (Aircraft)</string>
+		<string>Sales Representative (Chemicals &amp; Drugs)</string>
+		<string>Sales Representative (Computers)</string>
+		<string>Sales Representative (Graphic Arts)</string>
+		<string>Sales Representative (Hotel Furnishings)</string>
+		<string>Sales Representative (Medical Equipment)</string>
+		<string>Sales Representative (Printed Advertising)</string>
+		<string>Sales Representative (Radio &amp; TV Time)</string>
+		<string>Sales Representative (Telecommunications)</string>
+		<string>Sales Representative (Teleconferencing)</string>
+		<string>Sales Representative ( Education Programs)</string>
+		<string>Sales Representatives (Agricultural Products)</string>
+		<string>Sales Representatives (Instruments)</string>
+		<string>Sales Representatives (Mechanical Equipment)</string>
+		<string>Sales Representitive (Psychological Tests)</string>
+		<string>Sanitary Engineer</string>
+		<string>Sawing Machine Operator</string>
+		<string>Scanner Operators</string>
+		<string>School Nurse</string>
+		<string>School Plant Consultant</string>
+		<string>School Psychologist</string>
+		<string>Scientific Linguist</string>
+		<string>Scientific Photographer</string>
+		<string>Screen Printing Machine Operators</string>
+		<string>Screen Writer</string>
+		<string>Script Editor</string>
+		<string>Securities Broker</string>
+		<string>Security and Fire Alarm Systems Installers</string>
+		<string>Security Guard</string>
+		<string>Self-Enrichment Education Teachers</string>
+		<string>Septic Tank and Sewer Servicers</string>
+		<string>Service Station Attendants</string>
+		<string>Set Designer</string>
+		<string>Set Illustrator</string>
+		<string>Sewing Machine Operators</string>
+		<string>Sheet Metal Workers</string>
+		<string>Ship Carpenters and Joiners</string>
+		<string>Ship Engineers</string>
+		<string>Ship Master</string>
+		<string>Ship Mate</string>
+		<string>Ship Pilot</string>
+		<string>Shipping, Receiving, and Traffic Clerks</string>
+		<string>Shoe Machine Operators</string>
+		<string>Signal Switch Repairers</string>
+		<string>Skin Care Specialists</string>
+		<string>Small Engine Mechanics</string>
+		<string>Social and Community Service Managers</string>
+		<string>Social and Human Service Assistants</string>
+		<string>Social Psychologist</string>
+		<string>Social Science Research Assistants</string>
+		<string>Social Service Volunteer</string>
+		<string>Social Welfare Administrator</string>
+		<string>Social Work Professor</string>
+		<string>Social Worker</string>
+		<string>Sociology Professor</string>
+		<string>Soil Conservation Technician</string>
+		<string>Soil Conservationist</string>
+		<string>Soil Engineer</string>
+		<string>Soil Scientist</string>
+		<string>Solar Energy Systems Designer</string>
+		<string>Solid Waste Disposal Administrator</string>
+		<string>Sound Engineering Technicians</string>
+		<string>Special Education Administrator</string>
+		<string>Special Forces</string>
+		<string>Special Forces Officers</string>
+		<string>Speech Pathologist</string>
+		<string>Speech Writer</string>
+		<string>Sport Psychologist</string>
+		<string>Sport&apos;s/Entertainment Agent (Manager)</string>
+		<string>Sports Agent</string>
+		<string>Sports Events Business Manager</string>
+		<string>Sports Physician (Orthopedist)</string>
+		<string>Sportswriter (Journalist)</string>
+		<string>Stained Glass Artist</string>
+		<string>Standards Engineer</string>
+		<string>Statement Clerks</string>
+		<string>Stationary Engineers</string>
+		<string>Statistical Assistants</string>
+		<string>Steel Workers</string>
+		<string>Storage and Distribution Manager</string>
+		<string>Stress Analyst Engineer</string>
+		<string>Structural Drafter</string>
+		<string>Structural Engineer</string>
+		<string>Student Admissions Administrator</string>
+		<string>Student Affairs Administrator</string>
+		<string>Student Financial Aid Administrator</string>
+		<string>Substance Abuse Counselor</string>
+		<string>Subway and Streetcar Conductor</string>
+		<string>Surgeons (MD)</string>
+		<string>Surgical Technician/Technologist</string>
+		<string>Survey Researchers</string>
+		<string>Surveying Technicians</string>
+		<string>Switchboard Operator</string>
+		<string>Systems Accountant</string>
+		<string>Systems Analyst, Data Processing</string>
+		<string>Tax Accountant</string>
+		<string>Tax Auditor</string>
+		<string>Tax Collector</string>
+		<string>Tax Examiner</string>
+		<string>Tax Lawyer</string>
+		<string>Tax Preparer</string>
+		<string>Taxi Drivers and Chauffeurs</string>
+		<string>Teacher of the Blind</string>
+		<string>Teachers Aide</string>
+		<string>Team Assemblers</string>
+		<string>Technical &amp; Scientific Publications Editor</string>
+		<string>Technical Directors/Managers</string>
+		<string>Technical Illustrator</string>
+		<string>Technical Publications Writer</string>
+		<string>Technological Espionage Intelligence Agent</string>
+		<string>Telecommunications Line Installers and Repairers</string>
+		<string>Telecommunications Maintenance Worker</string>
+		<string>Telecommunications Technician</string>
+		<string>Telephone Station Installers</string>
+		<string>Textile Bleaching and Dyeing Machine Operators</string>
+		<string>Textile Cutting Machine Operators</string>
+		<string>Textile Designer</string>
+		<string>Tile and Marble Setters</string>
+		<string>Title Examiner</string>
+		<string>Title Searchers</string>
+		<string>Tool &amp; Machine Designer</string>
+		<string>Tool and Die Makers</string>
+		<string>Tool Grinders, Filers, and Sharpeners</string>
+		<string>Tour Guide</string>
+		<string>Town Clerk</string>
+		<string>Traffic Administrator (Freight &amp; Passenger)</string>
+		<string>Traffic Agent</string>
+		<string>Traffic Technicians</string>
+		<string>Transit and Railroad Police</string>
+		<string>Transportation Attendants</string>
+		<string>Transportation Systems Design Engineer</string>
+		<string>Travel Agent</string>
+		<string>Travel Clerks</string>
+		<string>Travel Counselor</string>
+		<string>Travel Writer (Journalist)</string>
+		<string>Treasurer (Corporate)</string>
+		<string>Treatment Plant Operators</string>
+		<string>Tree Trimmers and Pruners</string>
+		<string>Truck Driver, Light Duty</string>
+		<string>Truck Driver, Long Distance</string>
+		<string>Ultrasound Technologist</string>
+		<string>Unemployment Inspector</string>
+		<string>Urban and Regional Planner</string>
+		<string>Ushers and Lobby Attendants</string>
+		<string>Utility Meter Reader</string>
+		<string>Vending Machine Mechanic</string>
+		<string>Veterinarian (VMD)</string>
+		<string>Veterinarian Technician</string>
+		<string>Veterinary Assistant</string>
+		<string>Video Engineer</string>
+		<string>Vocational Education Instructors College</string>
+		<string>Vocational Education Teachers, High School</string>
+		<string>Vocational Education Teachers, Middle School</string>
+		<string>Vocational Rehabilitation Counselor</string>
+		<string>Voice Pathologist</string>
+		<string>Waiters and Waitresses</string>
+		<string>Warehouse Stock Clerk</string>
+		<string>Watch Repairers</string>
+		<string>Water Pollution Control Inspector</string>
+		<string>Weather Observer</string>
+		<string>Web Art Director</string>
+		<string>Weighers and Measurers</string>
+		<string>Welder (Gas, Arc, Plasma, Laser)</string>
+		<string>Welfare Eligibility Workers and Interviewers</string>
+		<string>Wholesale Buyers</string>
+		<string>Wildlife Biologist</string>
+		<string>Wildlife Control Agent</string>
+		<string>Windows - Draperies Treatment Specialist</string>
+		<string>Woodworking Machine Operators</string>
+		<string>Word Processing Specialist</string>
+		<string>Writer /Author</string>
+		<string>Zoo Veterinarian</string>
+		<string>Zoologist</string>
+	</array>
+</dict>
+</plist>
